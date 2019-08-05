@@ -91,7 +91,7 @@ export default function Features(props) {
         <img src="../static/images/screenshot.png" />
         <h3>
           We plan on rolling out even more tools to keep your team productive.
-          For more information - follow us on social media or sign up to our mailing & we'll let you know as soon as they're available.
+          For more information - follow us on social media or sign up to our mailing list & we'll let you know as soon as they're available.
         </h3>
       </div>
     </React.Fragment>

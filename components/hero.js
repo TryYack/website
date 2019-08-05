@@ -87,7 +87,7 @@ export default function Hero(props) {
         <Subscribe />
 
         <p>
-          Weekday is currently in pre-alpha, we're almost ready to launch.
+          Weekday is currently in alpha, we're almost ready to launch.
           Sign up to our mailing and we’ll let you know when you can sign up.
         </p>
       </div>
