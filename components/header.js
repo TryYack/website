@@ -29,7 +29,7 @@ export default function Header(props) {
         }
 
         .header .logo .text {
-          padding-left: 10px;
+          padding-left: 5px;
           position: relative;
           bottom: 2px;
           color: #007af5;
