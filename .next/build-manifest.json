@@ -12,7 +12,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/confirm_email/[token]": [
+    "/confirm_email": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
