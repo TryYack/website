@@ -20,8 +20,8 @@ function ConfirmEmail(props) {
 
       if (!email || !token) return
 
-      fetch('https://api.weekday.sh/api/v1/auth/confirm', {
-        method: 'POST',
+      fetch('https://api.weekday.sh/v1/account/email/confirmed', {
+        method: 'PUT',
         mode: 'cors',
         cache: 'no-cache',
         credentials: 'same-origin',
