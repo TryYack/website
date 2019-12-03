@@ -82,11 +82,11 @@ export default function Features(props) {
 
       <div className="features">
         <h1>
-          We’ve made Weekday as intuitive as possible.
+          Empower your team
         </h1>
         <h2>
-          Channels, private messaging, team management,
-          markdown support, replies, reactions, attachments - it's all here.
+          Channels, private messaging, security, team management,
+          markdown support, replies, reactions, attachments, an app store - it's all here.
         </h2>
         <img src="../static/images/screenshot.png" />
         <h3>
