@@ -5,4 +5,4 @@ Yack is a messaging platform that helps your team get things done - like they ha
 
 Send queries to [support@yack.co](mailto:support@yack.co?subject=Olla)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f3a02d70-45d5-484d-883e-cc72bca2e46a/deploy-status)](https://app.netlify.com/sites/yack-website/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/233bd7fd-19ec-4123-85c7-dc2bed39fc0f/deploy-status)](https://app.netlify.com/sites/pedantic-kilby-7c1e30/deploys)
