@@ -66,7 +66,7 @@ export default function Header(props) {
 
       <div className="header">
         <div className="logo">
-          <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo-transparent.png" height="20" alt="Yack"/>
+          <img src="https://weekday-marketing.s3-us-west-2.amazonaws.com/logo-transparent.png" height="20" alt="Yack"/>
 
           <div className="text">
             yack
