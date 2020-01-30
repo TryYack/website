@@ -20,7 +20,7 @@ function ConfirmEmail(props) {
 
       if (!email || !token) return
 
-      fetch('https://api.weekday.sh/v1/account/email/confirmed', {
+      fetch('https://api.yack.co/v1/account/email/confirmed', {
         method: 'PUT',
         mode: 'cors',
         cache: 'no-cache',
@@ -134,10 +134,10 @@ function ConfirmEmail(props) {
       <div className="container">
         <div className="inner">
           <div className="logo">
-            <img src="../static/images/logo.png" height="20" alt="Weekday"/>
+            <img src="../static/images/logo.png" height="20" alt="Yack"/>
 
             <div className="text">
-              weekday
+              yack
             </div>
           </div>
 
@@ -153,7 +153,7 @@ function ConfirmEmail(props) {
             <React.Fragment>
               <p><img src="../static/images/confirm_email_confirmed.png" height="150" /></p>
               <h1>Congratulations!</h1>
-              <h2>This email address is now confirmed! Please <a href="https://app.weekday.sh" target="_blank">click here</a> to log in.</h2>
+              <h2>This email address is now confirmed! Please <a href="https://app.yack.co" target="_blank">click here</a> to log in.</h2>
             </React.Fragment>
           }
         </div>

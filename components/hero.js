@@ -79,7 +79,7 @@ export default function Hero(props) {
           </h1>
         */}
         <h2>
-          Weekday is a messaging platform
+          Yack is a messaging platform
           that helps your team get things done - like they
           had superpowers.
         </h2>
@@ -87,7 +87,7 @@ export default function Hero(props) {
         <Subscribe />
 
         <p>
-          Weekday is currently in development, but we're almost ready to launch.
+          Yack is currently in development, but we're almost ready to launch.
           Sign up to our mailing and we’ll let you know when you can sign up.
         </p>
       </div>

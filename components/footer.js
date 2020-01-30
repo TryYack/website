@@ -50,11 +50,11 @@ export default function Footer(props) {
 
       <div className="footer">
         <p>
-          Weekday &copy; All rights reserved
+          Yack &copy; All rights reserved
         </p>
         <ul>
-          <li><a href="https://github.com/getweekday" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
-          <li><a href="https://twitter.com/getweekday" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li>
+          <li><a href="https://github.com/getyack" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
+          <li><a href="https://twitter.com/getyack" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li>
         </ul>
       </div>
     </React.Fragment>

@@ -9,7 +9,7 @@ export default function Home(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>Weekday - Give your team superpowers</title>
+        <title>Yack - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/font/stylesheet.css" rel="stylesheet" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
