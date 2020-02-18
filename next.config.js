@@ -1,5 +1,5 @@
 module.exports = {
   publicRuntimeConfig: {
-    API_URL: process.env.API_URL
+    CONFIRM_URL: process.env.CONFIRM_URL
   }
 }
