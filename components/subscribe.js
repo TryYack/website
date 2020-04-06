@@ -76,11 +76,9 @@ export default function Subscribe(props) {
         }
       `}</style>
 
-
-
       <div className="subscribe">
         <MailchimpSubscribe
-          url="https://yack.us3.list-manage.com/subscribe/post?u=5db567ea876fe7ae1444db9f3&amp;id=851e307826"
+          url="https://joduplessis.us19.list-manage.com/subscribe/post?u=e0ff88608f6818b9c7db204bc&amp;id=ad218bea1c"
         />
       </div>
     </React.Fragment>

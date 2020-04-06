@@ -24,8 +24,8 @@ false,
 /***/ "./pages/_error.js":
 false,
 
-/***/ 2:
+/***/ 1:
 false
 
 })
-//# sourceMappingURL=_error.js.069c27a231579111761c.hot-update.js.map
+//# sourceMappingURL=_error.js.b234cddcb5faaf7372ee.hot-update.js.map
