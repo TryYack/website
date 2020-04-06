@@ -26,6 +26,11 @@ export default function Header(props) {
           align-content: center;
           align-items: center;
           margin-right: auto;
+          text-decoration: none !important;
+        }
+
+        .header .logo a {
+          text-decoration: none !important;
         }
 
         .header .logo .text {
@@ -36,9 +41,10 @@ export default function Header(props) {
           font-size: 22px;
           font-weight: 400;
           font-family: 'hk_groteskmedium', helvetica;
+          text-decoration: none !important;
         }
 
-        .header button {
+        .header .button {
           color: #202529;
           background-color: white;
           font-size: 16px;
@@ -52,26 +58,30 @@ export default function Header(props) {
           margin-left: 5px;
           transition: opacity 0.25s linear;
           opacity: 1;
+          text-decoration: none;
         }
 
-        .header button:hover {
+        .header .button:hover {
           opacity: 0.75;
         }
 
-        .header button.solid {
+        .header .button.solid {
           border: 2px solid #202529;
           padding: 15px 20px 15px 20px;
         }
       `}</style>
 
       <div className="header">
-        <div className="logo">
+        <a href="/" className="logo">
           <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="20" alt="Yack"/>
 
           <div className="text">
             yack
           </div>
-        </div>
+        </a>
+
+        <a href="/termsofuse" className="button">Terms of use</a>
+        <a href="/privacypolicy" className="button">Privacy policy</a>
 
         {/*
           For later:
