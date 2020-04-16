@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NextJS website for Yack",
   "main": "index.js",
-  "repository": "https://github.com/getyack/website",
+  "repository": "https://github.com/yack/website",
   "author": "Jo du Plessis",
   "license": "MIT",
   "dependencies": {
