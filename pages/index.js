@@ -13,6 +13,7 @@ export default function Home(props) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/font/stylesheet.css" rel="stylesheet" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
+        <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
       </Head>
 
       <style global jsx>{`

@@ -26,7 +26,7 @@ export default function Subscribe(props) {
           position: relative;
         }
 
-        .subscribe input[type="email"] {
+        .subscribe input {
           border: 0px;
           padding: 20px;
           height: 75px;
@@ -77,9 +77,17 @@ export default function Subscribe(props) {
       `}</style>
 
       <div className="subscribe">
-        <MailchimpSubscribe
-          url="https://joduplessis.us19.list-manage.com/subscribe/post?u=e0ff88608f6818b9c7db204bc&amp;id=ad218bea1c"
-        />
+        <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619E8F2A4A9BC5AFAFD1F79F545ED49CE1EF043DFD1E8F58B5970CD8C352A910033FC84CEB3C085CB0E46333793E01E92F8">
+          <div>
+            <div>
+              <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" placeholder="Name" />
+            </div>
+            <div>
+              <input autocomplete="Email" aria-label="Email" className="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ydlkhut-ydlkhut" required="" type="email" placeholder="Email" />
+            </div>
+          </div>
+          <button type="submit">Subscribe</button>
+        </form>
       </div>
     </React.Fragment>
   )
