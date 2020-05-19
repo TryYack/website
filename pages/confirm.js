@@ -4,9 +4,6 @@ import { useEffect, useState } from 'react'
 import getConfig from 'next/config'
 const { publicRuntimeConfig = {} } = getConfig() || {}
 
-// This doesn't work when using proces.env.variables
-const { CONFIRM_URL } = publicRuntimeConfig
-
 function Confirm(props) {
   const router = useRouter();
   const [error, setError] = useState(false)
@@ -21,7 +18,13 @@ function Confirm(props) {
 
       if (!email || !token) return
 
-      fetch('http://localhost:8001/v1/account/email/confirmed', {
+      // If process is present, then we are running in dev mode
+      // Otherwise we are in the browser on Netlify
+      const CONFIRM_URL = process
+                            ? 'http://localhost:8181/v1/account/email/confirmed'
+                            : 'https://api.yack.co/v1/account/email/confirmed'
+
+      fetch(CONFIRM_URL, {
         method: 'PUT',
         mode: 'cors',
         cache: 'no-cache',
@@ -150,7 +153,7 @@ function Confirm(props) {
             <React.Fragment>
               <p><img src="../static/images/confirm_email_confirmed.png" height="150" /></p>
               <h1>Congratulations!</h1>
-              <h2>This email address is now confirmed! Please <a href="https://app.yack.co" target="_blank">click here</a> to log in.</h2>
+              <h2>This email address is now confirmed! Please <a href="https://yack.app" target="_blank">click here</a> to log in.</h2>
             </React.Fragment>
           }
         </div>

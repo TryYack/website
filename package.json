@@ -16,9 +16,9 @@
   "devDependencies": {},
   "scripts": {
     "dev": "next",
+    "dev": "next -p 3100",
     "build": "next build",
-    "start": "next start",
-    "export": "next export",
+    "start": "next start -p 3100",
     "deploy": "npm run build && npm run export"
   }
 }
