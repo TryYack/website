@@ -21,7 +21,7 @@ function Confirm(props) {
 
       if (!email || !token) return
 
-      fetch('https://api.yack.co/v1/account/email/confirmed', {
+      fetch('http://localhost:8001/v1/account/email/confirmed', {
         method: 'PUT',
         mode: 'cors',
         cache: 'no-cache',
@@ -33,7 +33,6 @@ function Confirm(props) {
       })
       .then(res => res.json())
       .then(data => {
-        console.log(data)
         setLoading(false)
 
         if (!data.success) setError(true)
@@ -136,11 +135,7 @@ function Confirm(props) {
       <div className="container">
         <div className="inner">
           <div className="logo">
-            <img src="../static/images/logo.png" height="20" alt="Yack"/>
-
-            <div className="text">
-              yack
-            </div>
+            <img src="../static/images/logo.svg" height="20" alt="Yack"/>
           </div>
 
           {error && !loading &&
