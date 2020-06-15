@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Footer(props) {
   return (
@@ -49,6 +50,9 @@ export default function Footer(props) {
       `}</style>
 
       <div className="footer">
+
+{/* <Link to="/termsofuse" className="button">Terms of use</Link>
+<Link to="/privacypolicy" className="button">Privacy policy</Link> */}
         <p>
           Yack &copy; All rights reserved
         </p>

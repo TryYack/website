@@ -1,5 +1,6 @@
 import React from 'react'
 import Subscribe from '../components/subscribe'
+import Link from 'next/link'
 
 export default function Hero(props) {
   return (
@@ -13,35 +14,74 @@ export default function Hero(props) {
           margin-right: auto;
           width: 80%;
           background-color: white;
-          background-image: url(../static/images/hero.jpg);
+          /* background-image: url(../static/images/hero.jpg); */
           background-size: 55%;
           background-repeat: no-repeat;
           background-position: right top;
         }
 
         .hero h1 {
-          font-size: 80px;
-          color: #202529;
+          font-size: 82px;
+          color: #151B26;
           font-weight: 900;
-          font-family: 'hk_groteskbold', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, 'hk_groteskblack', helvetica;
-          line-height: 80px;
+          font-family: roc-grotesk, sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          line-height: 75px;
+          text-align: center;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 50px;
+          width: 50%;
         }
 
         .hero h2 {
           margin-top: 25px;
-          font-size: 25px;
-          color: #202529;
+          font-size: 22px;
+          color: #212835;
           line-height: 40px;
-          font-weight: 300;
-          width: 40%;
-          font-family: 'hk_grotesklight', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, 'hk_grotesklight', helvetica;
+          width: 100%;
+          font-weight: 400;
+          text-align: center;
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: 50px;
+          width: 700px;
         }
 
         .hero p {
-          font-size: 14px;
-          color: #808080;
-          width: 40%;
-          font-family: 'hk_grotesklight', helvetica;
+          font-size: 12px;
+          color: #515D79;
+          width: 100%;
+          text-align: center;
+          margin-right: auto;
+          margin-left: auto;
+          width: 350px;
+        }
+
+        .hero a.button {
+          background-color: #3369E7;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+          cursor: pointer;
+          border: none;
+          padding: 15px 15px 15px 15px;
+          font-size: 20px;
+          transition: background-color 0.25s linear;
+          text-decoration: none;
+          font-family: roc-grotesk, sans-serif;
+        }
+
+        .hero a.button:hover {
+          background-color: #2b62e3;
+        }
+
+        .center {
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: 50px;
+          text-align: center;
         }
 
         @media only screen and (max-width: 1000px) {
@@ -64,32 +104,16 @@ export default function Hero(props) {
       `}</style>
 
       <div className="hero">
+        <h1>Bring your team together</h1>
+        <h2>Yack is a messaging & collaboration platform that makes sure your team doesn't miss a beat. Even people outside your team will love it.</h2>
 
-        <h1>
-          A hackable team<br/>
-          collaboration<br/>
-          platform
-        </h1>
-        {/*
-          Idea:
-          <h1>
-            Communication<br/>
-            & collaboration<br/>
-            for teams
-          </h1>
-        */}
-        <h2>
-          Yack is a messaging platform
-          that helps your team get things done - like they
-          had superpowers.
-        </h2>
+        {/* <Subscribe /> */}
 
-        <Subscribe />
-
-        <p>
-          Yack is currently in development, but we're almost ready to launch.
-          Sign up to our mailing and we’ll let you know when you can sign up.
-        </p>
+        <div className="center"><Link href="https://yack.app"><a target="_blank" className="button">Get started</a></Link></div>
+        <div className="center">
+          <p>Yack is free to use for teams of any size. We also offer paid plans with additional features, storage, and support.</p>
+        </div>
+        
       </div>
     </React.Fragment>
   )

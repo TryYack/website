@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Header(props) {
   return (
@@ -26,72 +27,45 @@ export default function Header(props) {
           align-content: center;
           align-items: center;
           margin-right: auto;
-          text-decoration: none !important;
         }
 
-        .header .logo a {
-          text-decoration: none !important;
-        }
-
-        .header .logo .text {
-          padding-left: 5px;
-          position: relative;
-          bottom: 2px;
-          color: #007af5;
-          font-size: 22px;
-          font-weight: 400;
-          font-family: 'hk_groteskmedium', helvetica;
-          text-decoration: none !important;
-        }
-
-        .header .button {
+        .header a {
           color: #202529;
           background-color: white;
           font-size: 16px;
           cursor: pointer;
-          font-weight: 400;
-          font-family: 'hk_grotesksemibold', helvetica;
-          border-radius: 5px;
-          border: none;
-          padding: 15px 30px 15px 0px;
-          position: relative;
-          margin-left: 5px;
-          transition: opacity 0.25s linear;
-          opacity: 1;
+          font-weight: 500;
+          margin-right: 30px;
           text-decoration: none;
         }
 
-        .header .button:hover {
-          opacity: 0.75;
+        .header a.button {
+          background-color: #3369E7;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+          cursor: pointer;
+          border: none;
+          padding: 15px 15px 15px 15px;
+          font-size: 16px;
+          transition: background-color 0.25s linear;
         }
 
-        .header .button.solid {
-          border: 2px solid #202529;
-          padding: 15px 20px 15px 20px;
+        .header a.button:hover {
+          background-color: #2b62e3;
         }
       `}</style>
 
       <div className="header">
         <a href="/" className="logo">
-          <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="20" alt="Yack"/>
-
-          <div className="text">
-            yack
-          </div>
+          <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo-text.svg" height="30" alt="Yack"/>
         </a>
 
-        <a href="/termsofuse" className="button">Terms of use</a>
-        <a href="/privacypolicy" className="button">Privacy policy</a>
-
-        {/*
-          For later:
-          <button>Home</button>
-          <button>Tour</button>
-          <button>Pricing</button>
-          <button>Developers</button>
-          <button>Support</button>
-          <button className="solid">Sign in</button>
-        */}
+        <Link href="/privacypolicy"><a>Product</a></Link>
+        <Link href="/privacypolicy"><a>Pricing</a></Link>
+        <Link href="/privacypolicy"><a>FAQ</a></Link>
+        <Link href="/privacypolicy"><a>Support</a></Link>
+        <Link href="https://yack.app"><a target="_blank" className="button">Get started</a></Link>
       </div>
     </React.Fragment>
   )

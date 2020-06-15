@@ -14,23 +14,28 @@ export default function Home(props) {
         <link href="/static/font/stylesheet.css" rel="stylesheet" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/kfw2ghz.css"></link>
       </Head>
 
       <style global jsx>{`
         * {
           margin: 0px;
           padding: 0px;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, 'hk_grotesklight', helvetica;
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
         }
 
         body {
           background: white;
         }
       `}</style>
+  Coming soon
 
-      <Header />
+      {/* <Header />
       <Hero />
       <Features />
-      <Footer />
+      <Footer /> */}
     </React.Fragment>
   )
 }
