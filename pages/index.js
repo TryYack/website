@@ -4,6 +4,7 @@ import Features from '../components/features'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Hero from '../components/hero'
+import Faq from '../components/faq'
 
 export default function Home(props) {
   return (
@@ -30,12 +31,12 @@ export default function Home(props) {
           background: white;
         }
       `}</style>
-  Coming soon
 
-      {/* <Header />
+      <Header />
       <Hero />
       <Features />
-      <Footer /> */}
+      <Faq />
+      <Footer />
     </React.Fragment>
   )
 }

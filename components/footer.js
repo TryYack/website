@@ -1,4 +1,5 @@
 import React from 'react'
+import Subscribe from './subscribe'
 import Link from 'next/link'
 
 export default function Footer(props) {
@@ -6,7 +7,7 @@ export default function Footer(props) {
     <React.Fragment>
       <style jsx>{`
         .footer {
-          background-color: #0f1c2e;
+          background-color: #212835;
           padding: 50px;
         }
 
@@ -50,13 +51,16 @@ export default function Footer(props) {
       `}</style>
 
       <div className="footer">
-
-{/* <Link to="/termsofuse" className="button">Terms of use</Link>
-<Link to="/privacypolicy" className="button">Privacy policy</Link> */}
+        <Subscribe />  
         <p>
           Yack &copy; All rights reserved
         </p>
+        <p>
+          <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Yack"/>
+        </p>
         <ul>
+          <li><Link to="/termsofuse" className="button">Terms of use</Link></li>
+          <li><Link to="/privacypolicy" className="button">Privacy policy</Link></li> 
           <li><a href="https://github.com/YackLabs" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
           <li><a href="https://twitter.com/yackhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li>
         </ul>

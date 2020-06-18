@@ -8,11 +8,12 @@ export default function Subscribe(props) {
         .subscribe {
           margin: 0px;
           padding: 0px;
-          background: #FFFFFF;
           margin-top: 30px;
           margin-bottom: 30px;
           width: 500px;
           position: relative;
+          margin-left: auto;
+          margin-right: auto;
         }
 
         @media only screen and (max-width: 1000px) {

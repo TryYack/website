@@ -11,11 +11,11 @@
     "next": "^9.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-feather": "^2.0.8",
     "react-mailchimp-subscribe": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "next",
     "dev": "next -p 3100",
     "build": "next build",
     "start": "next start -p 3100",
