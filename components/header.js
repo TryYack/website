@@ -123,8 +123,8 @@ export default function Header(props) {
 
         <div className="links">
           <div className="top">
-          <a href="/privacypolicy">Privacy policy</a>
-            <a href="/termsofuse">Terms of use</a>
+            <a href="/privacypolicy" target="_blank">Privacy policy</a>
+            <a href="/termsofuse" target="_blank">Terms of use</a>
             <a href="mailto:support@yack.co">Support / help</a>
           </div>
           <div className="bottom">

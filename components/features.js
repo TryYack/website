@@ -151,7 +151,7 @@ export default function Features(props) {
             }
 
             .small-features .feature h3 .app {
-              background: #b84592;
+              background: #8e43e7;
               color: white;
               font-size: 8px;
               font-weight: 800;

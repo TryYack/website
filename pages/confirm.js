@@ -21,9 +21,8 @@ function Confirm(props) {
 
       // If process is present, then we are running in dev mode
       // Otherwise we are in the browser on Netlify
-      const CONFIRM_URL = process
-                            ? 'http://localhost:8181/v1/account/email/confirmed'
-                            : 'https://api.yack.co/v1/account/email/confirmed'
+      const CONFIRM_URL = 'https://api.yack.co/v1/account/email/confirmed'
+      //const CONFIRM_URL = 'http://localhost:8181/v1/account/email/confirmed'
 
       fetch(CONFIRM_URL, {
         method: 'PUT',
