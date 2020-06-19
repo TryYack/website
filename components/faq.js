@@ -80,7 +80,7 @@ export default function Faq(props) {
           background-color: #212835;
           padding: 50px;
           padding-top: 0px;
-          padding-bottom: 100px;
+          padding-bottom: 0px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -110,22 +110,22 @@ export default function Faq(props) {
         
         <Row 
           title="This seems very new, what's the story?"
-          text="You're correct! Yack is a new messaging app built from the ground up to make communication & collaboration easier for your team."
+          text="Yack is a new messaging platform built from the ground up to make communication & collaboration easier for your team."
         />
 
         <Row 
           title="But, is this just another Slack or Microsoft Teams?"
-          text="You're not wrong, but we believe there are a few things that Yack does a lot better. Being mostly open source & our app platform to name a few."
+          text="We believe there are a few things that Yack does better. Being mostly open source for one."
         />
 
         <Row 
-          title="Where is the pricing & plans info?"
-          text="We are busy finalising our paid plans - please subscribe to our newsletter to keep updated here and how premium plans will affect current features."
+          title="Where is the pricing information?"
+          text="We are busy finalising our paid plans - please subscribe to our mailing list to keep updated on how premium plans will affect current features."
         />
 
         <Row 
           title="Data & security is pretty important to us."
-          text="We're rolling out GDPR compliance very very soon and will update you as soon as we can about that - subsribe to our newsletter to keep updated!"
+          text="We're rolling out GDPR compliance very soon and will update people as soon as we can about that - subscribe to our mailing list to keep updated."
         />
 
         <Row 
@@ -134,23 +134,23 @@ export default function Faq(props) {
         />
 
         <Row 
-          title="When will a more public release happen?"
-          text="Soon - subscribe to the newsletter to keep updated!"
+          title="When will a more stable beta release happen?"
+          text="Soon - subscribe to the mailing list to keep updated!"
         />
         
         <Row 
           title="I need to connect my GitHub (or other) account"
-          text="We are busy building more integration, but in the meantime you'll be able to use the Zapier app really."
+          text="We are busy building more integrations, including a Zapier app."
         />
 
         <Row 
-          title="Something has broken / I can't log in."
-          text="Oh no, sorry about that. Unfortunately Yack is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@yack.co' style='color: #00aeff;'>support@yack.co</a> for more info."
+          title="Something has broken / I can't log in / the world is ending."
+          text="Sorry about that. Yack is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@yack.co' style='color: #00aeff;'>support@yack.co</a> for support."
         />
 
         <Row 
           title="Your logo doesn't make sense."
-          text="It's a skewed Y. ¯\_(ツ)_/¯"
+          text="¯\_(ツ)_/¯"
         />
       </div>
     </React.Fragment>

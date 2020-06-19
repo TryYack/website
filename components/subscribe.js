@@ -16,6 +16,19 @@ export default function Subscribe(props) {
           margin-right: auto;
         }
 
+        .subscribe h1 {
+          font-size: 48px;
+          width: 60%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: 50px;
+          text-align: center;
+          color: #F3F6FB;
+          font-family: roc-grotesk, sans-serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+
         @media only screen and (max-width: 1000px) {
           .subscribe {
             width: 500px;
@@ -79,6 +92,10 @@ export default function Subscribe(props) {
       `}</style>
 
       <div className="subscribe">
+        <h1>
+          Subscribe
+        </h1>
+
         <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619E8F2A4A9BC5AFAFD1F79F545ED49CE1EF043DFD1E8F58B5970CD8C352A910033FC84CEB3C085CB0E46333793E01E92F8">
           <div>
             <div>

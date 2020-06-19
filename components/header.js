@@ -123,13 +123,14 @@ export default function Header(props) {
 
         <div className="links">
           <div className="top">
-            <a href="/privacypolicy" target="_blank">Privacy policy</a>
-            <a href="/termsofuse" target="_blank">Terms of use</a>
+            <a href="/privacypolicy">Privacy policy</a>
+            <a href="/termsofuse">Terms of use</a>
             <a href="mailto:support@yack.co">Support / help</a>
           </div>
           <div className="bottom">
-            <a href="#features">Features</a>
-            <a href="#faq">FAQ</a>
+            <a href="/">Home</a>
+            <a href="/#features">Features</a>
+            <a href="/#faq">FAQ</a>
             <a href="https://yack.app" target="_blank" className="button">Login / Signup</a>            
           </div>
         </div>

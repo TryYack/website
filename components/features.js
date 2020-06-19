@@ -209,7 +209,7 @@ export default function Features(props) {
           <div className="hero-features">
             <div className="feature">
               <h3>Video & audio calls <span className="coming-soon">Coming soon</span></h3>
-              <p>Catch up with your team or channel members with video or audio calls - rolling out soon.</p>
+              <p>Catch up with your team using video or audio calls - keeping it all on one platform.</p>
               <p><a href="https://github.com/Yack" target="_blank">Keep me updated</a></p>
             </div>
             <div className="feature">
@@ -225,7 +225,7 @@ export default function Features(props) {
           </div>
         </div>
         <h1>
-          Team back team collaboration
+          Take back team collaboration
         </h1>
         <h2>
           Yack makes working on a team fun again. Here are some things Yack can help your team with.
@@ -233,7 +233,7 @@ export default function Features(props) {
         <div className="small-features">
           <div className="feature">
             <h3>Private & public channels</h3>
-            <p>Yack messaging can be public or private when you need to talk to another team member. Channels can also be one-way (broadcast) or private to a group of team members.</p>
+            <p>Yack channels can be public or private (when you need to talk one on one). Channels can also be one-way (broadcast) or limited to a group of people.</p>
           </div>
           <div className="feature">
             <h3>Archiving, muting & starring</h3>
@@ -241,41 +241,41 @@ export default function Features(props) {
           </div>
           <div className="feature">
             <h3>Granular permissions</h3>
-            <p>Grant permission to only a few people (or many). Permissions can be set on channels & also seperately on teams.</p>
+            <p>Give only a few people power - or many. Permissions can be set on channels & teams independantly.</p>
           </div>
         </div>
         <div className="small-features">
           <div className="feature">
             <h3>Do not disturb, presences & notifications</h3>
-            <p>When you need to focus you can turn off notifications for a period - or set your presence to busy.</p>
+            <p>When you need to focus, you can turn off notifications for a time period - or set your presence to busy or away.</p>
           </div>
           <div className="feature">
             <h3>Made for remote work</h3>
-            <p>Yack will let you know what timezone your fellow member is on, in private conversations. </p>
+            <p>Yack will awlays let you know what timezone your fellow member is on. </p>
           </div>
           <div className="feature">
             <h3>Unlimited history</h3>
-            <p>We won't limit the number of searchable members for the alpha version. Keep updated about premium plans by subscribing to our newsletter.</p>
+            <p>We won't limit the number of searchable messages for the alpha. Keep updated about premium plans by subscribing to our mailing list.</p>
           </div>
         </div>
         <div className="small-features">
           <div className="feature">
-            <h3>Appstore & platform</h3>
-            <p>Build your own apps, private apps or install other people's apps from the app store. </p>
+            <h3>Appstore & app platform</h3>
+            <p>Build your own team apps, private apps or install other people's apps from the app store. </p>
           </div>
           <div className="feature">
             <h3>Polls <span className="app">App</span></h3>
-            <p>Get feedback from your channel members by posting polls the channel - there is no limit to how many (or few) polls are allowed per team.</p>
+            <p>Get feedback from your channel members by posting polls to the channel - there is no limit to how many polls are allowed.</p>
           </div>
           <div className="feature">
             <h3>Google Drive support <span className="app">App</span></h3>
-            <p>Attach Google Drive accounts so you can access your files quickly & easily. </p>
+            <p>Connect Google Drive accounts so you can access your files quickly & easily. </p>
           </div>
         </div>
         <div className="small-features">
           <div className="feature">
             <h3>Zapier integration <span className="coming-soon">Coming Soon</span></h3>
-            <p>While we're rolling out more "native" app integation, you're able to connect your favourite app by using the Zapier app. </p>
+            <p>Connect your favourite app to Yack by using our Zapier integration.</p>
           </div>
           <div className="feature">
             <h3>GDPR <span className="coming-soon">Coming Soon</span></h3>
