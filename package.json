@@ -18,6 +18,7 @@
   "scripts": {
     "dev": "next -p 3100",
     "build": "next build",
+    "export": "next export",
     "start": "next start -p 3100",
     "deploy": "npm run build && npm run export"
   }
