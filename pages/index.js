@@ -22,7 +22,7 @@ export default function Home(props) {
         * {
           margin: 0px;
           padding: 0px;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, 'hk_grotesklight', helvetica;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }

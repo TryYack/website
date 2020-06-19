@@ -5,6 +5,7 @@ import Link from 'next/link'
 export default function Footer(props) {
   return (
     <React.Fragment>
+      <a name="footer"></a>
       <style jsx>{`
         .footer {
           background-color: #212835;
@@ -16,10 +17,17 @@ export default function Footer(props) {
           width: 50%;
           margin-right: auto;
           margin-left: auto;
-          font-family: 'hk_grotesklight', helvetica;
           text-align: center;
           color: #8492A6;
           line-height: 25px;
+        }
+
+        .footer .image {
+          padding: 10px;
+          width: 50%;
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
         }
 
         .footer ul {
@@ -31,7 +39,6 @@ export default function Footer(props) {
           justify-content: center;
           align-content: center;
           align-items: center;
-
         }
 
         .footer ul li {
@@ -53,17 +60,15 @@ export default function Footer(props) {
       <div className="footer">
         <Subscribe />  
         <p>
-          Yack &copy; All rights reserved
+          Yack &copy; 2020 - All rights reserved 
         </p>
-        <p>
+        <div className="image">
           <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Yack"/>
-        </p>
-        <ul>
-          <li><Link to="/termsofuse" className="button">Terms of use</Link></li>
-          <li><Link to="/privacypolicy" className="button">Privacy policy</Link></li> 
+        </div>
+        {/* <ul>
           <li><a href="https://github.com/YackLabs" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
           <li><a href="https://twitter.com/yackhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li>
-        </ul>
+        </ul> */}
       </div>
     </React.Fragment>
   )

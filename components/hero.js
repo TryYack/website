@@ -10,7 +10,7 @@ export default function Hero(props) {
         .hero {
           margin: 0px;
           padding: 0px;
-          padding-bottom: 200px;
+          padding-bottom: 175px;
           width: 100%;
           background-color: white;              
           background-repeat: no-repeat;
@@ -24,8 +24,8 @@ export default function Hero(props) {
         .hero h1 {
           font-size: 82px;
           color: #151B26;
-          font-family: nimbus-sans-extended, sans-serif;
-          font-weight: 300;
+          font-family: roc-grotesk, sans-serif;
+          font-weight: 400;
           font-style: normal;
           line-height: 75px;
           text-align: center;
@@ -39,9 +39,10 @@ export default function Hero(props) {
           margin-top: 25px;
           font-size: 22px;
           color: #212835;
-          line-height: 40px;
+          line-height: 35px;
+          letter-spacing: 0.75;
           width: 100%;
-          font-weight: 400;
+          font-weight: 300;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
@@ -53,14 +54,11 @@ export default function Hero(props) {
           background-color: #3369E7;
           border-radius: 5px;
           color: white;
-          font-weight: 500;
           cursor: pointer;
           border: none;
           padding: 20px;
-          font-size: 20px;
           transition: background-color 0.25s linear;
           text-decoration: none;
-          font-family: nimbus-sans-extended, sans-serif;
           width: 200px;
           display: flex;
           flex-direction: row;
@@ -71,6 +69,12 @@ export default function Hero(props) {
           margin-left: auto;
           margin-bottom: 20px;
         }
+
+          .hero a.button .text {
+            font-size: 20px;
+            font-family: roc-grotesk, sans-serif;
+            font-weight: 500;
+          }
 
           .hero a.button .icon {
             margin-left: 10px;
@@ -90,6 +94,7 @@ export default function Hero(props) {
           margin-right: auto;
           margin-left: auto;
           width: 350px;
+          line-height: 14px;
         }
 
         @media only screen and (max-width: 1000px) {
@@ -115,10 +120,10 @@ export default function Hero(props) {
         <h1>Bring your team together</h1>
         <h2>Yack is a messaging & collaboration platform that makes sure your team doesn't miss a beat. Even people outside your team will love it.</h2>
         <a target="_blank" className="button" href="https://yack.app">
-          <span>Get started</span>
+          <span className="text">Get started</span>
           <span className="icon"><ArrowRight color="white" size="25" /></span>
         </a>  
-        <p>Yack is free to use for teams of any size. We also offer paid plans with additional features, storage, and support.</p>    
+        <p>Yack is free to use for teams of any size during the alpha. Please read our FAQ for more information.</p>    
       </div>
     </React.Fragment>
   )
