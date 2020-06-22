@@ -38,7 +38,7 @@ function Row(props) {
           .row .content h3 {
             font-size: 22px;
             color: #929AAC;
-            font-family: roc-grotesk, sans-serif;
+            font-family: aktiv-grotesk-extended, sans-serif;
             font-weight: 400;
             
             opacity: 1;
@@ -51,11 +51,12 @@ function Row(props) {
             }
 
           .row .content p {
-            font-size: 14px;
+            font-size: 16px;
             display: ${open ? 'block' : 'none'};
             color: #F3F6FB;
             line-height: 24px;
-            padding-bottom: 50px;
+            padding-bottom: 10px;
+            padding-top: 5px;
             width: 100%;
           }
       `}</style>
@@ -97,7 +98,7 @@ export default function Faq(props) {
           margin-bottom: 50px;
           text-align: center;
           color: #F3F6FB;
-          font-family: roc-grotesk, sans-serif;
+          font-family: aktiv-grotesk-extended, sans-serif;
           font-weight: bold;
           font-style: normal;
         }
@@ -144,13 +145,8 @@ export default function Faq(props) {
         />
 
         <Row 
-          title="Something has broken / I can't log in / the world is ending."
+          title="Something has broken / I can't log in"
           text="Sorry about that. Yack is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@yack.co' style='color: #00aeff;'>support@yack.co</a> for support."
-        />
-
-        <Row 
-          title="Your logo doesn't make sense."
-          text="¯\_(ツ)_/¯"
         />
       </div>
     </React.Fragment>

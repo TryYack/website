@@ -1,11 +1,11 @@
 import React from 'react'
-import MailchimpSubscribe from 'react-mailchimp-subscribe'
 
 export default function Subscribe(props) {
   return (
     <React.Fragment>
       <style global jsx>{`
         .subscribe {
+          background-color: #212835;
           margin: 0px;
           padding: 0px;
           margin-top: 30px;
@@ -24,8 +24,22 @@ export default function Subscribe(props) {
           margin-bottom: 50px;
           text-align: center;
           color: #F3F6FB;
-          font-family: roc-grotesk, sans-serif;
+          font-family: aktiv-grotesk-extended, sans-serif;
           font-weight: 600;
+          font-style: normal;
+        }
+
+        .subscribe h2 {
+          font-size: 24px;
+          margin-top: 20px;
+          width: 100%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: 100px;
+          text-align: center;
+          color: #929AAC;
+          font-weight: 400;
+          line-height: 30px;
           font-style: normal;
         }
 
@@ -64,7 +78,7 @@ export default function Subscribe(props) {
           height: 75px;
           border: none;
           font-size: 18px;
-          font-family: roc-grotesk, helvetica;
+          font-family: aktiv-grotesk-extended, helvetica;
           color: #929AAC;
           transition: opacity 0.25s linear;
           opacity: 1;
@@ -93,8 +107,11 @@ export default function Subscribe(props) {
 
       <div className="subscribe">
         <h1>
-          Subscribe
+          Join our mailing list
         </h1>
+        <h2>
+          Keep up to date with releases & news.
+        </h2>
 
         <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619E8F2A4A9BC5AFAFD1F79F545ED49CE1EF043DFD1E8F58B5970CD8C352A910033FC84CEB3C085CB0E46333793E01E92F8">
           <div>

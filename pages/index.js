@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import Header from '../components/header'
 import Hero from '../components/hero'
 import Faq from '../components/faq'
+import Subscribe from '../components/subscribe'
 
 export default function Home(props) {
   return (
@@ -12,7 +13,6 @@ export default function Home(props) {
       <Head>
         <title>Yack - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link href="/static/font/stylesheet.css" rel="stylesheet" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/kfw2ghz.css"></link>
@@ -22,13 +22,13 @@ export default function Home(props) {
         * {
           margin: 0px;
           padding: 0px;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+          font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
 
         body {
-          background: white;
+          background: #151c26;
         }
       `}</style>
 

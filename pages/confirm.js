@@ -55,7 +55,6 @@ function Confirm(props) {
       <Head>
         <title>Yack - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link href="/static/font/stylesheet.css" rel="stylesheet" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <link rel="stylesheet" href="https://use.typekit.net/kfw2ghz.css"></link>
       </Head>

@@ -1,6 +1,6 @@
 import React from 'react'
-import Subscribe from './subscribe'
 import Link from 'next/link'
+import Subscribe from './subscribe'
 
 export default function Footer(props) {
   return (
@@ -50,6 +50,8 @@ export default function Footer(props) {
         .footer ul li a {
           transition: opacity 0.25s linear;
           opacity: 1;
+          color: #929AAC;
+          text-decoration: none;
         }
 
         .footer ul li a:hover {
@@ -59,16 +61,20 @@ export default function Footer(props) {
 
       <div className="footer">
         <Subscribe />  
+
         <p>
           Yack &copy; 2020 - All rights reserved 
         </p>
         <div className="image">
-          <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Yack"/>
+          
         </div>
-        {/* <ul>
-          <li><a href="https://github.com/YackLabs" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
-          <li><a href="https://twitter.com/yackhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li>
-        </ul> */}
+        <ul>
+          {/* <li><a href="/"><img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Yack" border="0" /></a></li> */}
+          <li><a href="/privacypolicy">Privacy policy</a></li>
+          <li><a href="/termsofuse">Terms of use</a></li>
+          <li><a href="https://github.com/Yack" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
+          {/* <li><a href="https://twitter.com/yackhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li> */}
+        </ul>
       </div>
     </React.Fragment>
   )

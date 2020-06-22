@@ -11,10 +11,7 @@ export default function Hero(props) {
           margin: 0px;
           padding: 0px;
           padding-bottom: 175px;
-          width: 100%;
-          background-color: white;              
-          background-repeat: no-repeat;
-          background-position: right top;
+          width: 100%;            
           flex-direction: column;
           justify-content: center;
           align-content: center;
@@ -23,8 +20,8 @@ export default function Hero(props) {
 
         .hero h1 {
           font-size: 82px;
-          color: #151B26;
-          font-family: roc-grotesk, sans-serif;
+          color: #F3F6FB;
+          font-family: aktiv-grotesk-extended, sans-serif;
           font-weight: 400;
           font-style: normal;
           line-height: 75px;
@@ -38,63 +35,40 @@ export default function Hero(props) {
         .hero h2 {
           margin-top: 25px;
           font-size: 22px;
-          color: #212835;
+          color: #F3F6FB;
           line-height: 35px;
           letter-spacing: 0.75;
           width: 100%;
-          font-weight: 300;
+          font-weight: 400;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
-          margin-bottom: 50px;
+          margin-bottom: 40px;
           width: 700px;
         }
 
-        .hero a.button {
-          background-color: #3369E7;
-          border-radius: 5px;
-          color: white;
-          cursor: pointer;
-          border: none;
-          padding: 20px;
-          transition: background-color 0.25s linear;
-          text-decoration: none;
-          width: 200px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-content: center;
-          align-items: center;   
-          margin-right: auto;
-          margin-left: auto;
-          margin-bottom: 20px;
+        .hero h3 {
+          font-size: 13px;
+          text-transform: uppercase;
+          text-align: center;
+          width: 100%;
+          color: #515D79;
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: 1.25px;
+          margin-bottom: 10px;
         }
-
-          .hero a.button .text {
-            font-size: 20px;
-            font-family: roc-grotesk, sans-serif;
-            font-weight: 500;
-          }
-
-          .hero a.button .icon {
-            margin-left: 10px;
-            position: relative;
-            top: 2px;
-          }
-
-          .hero a.button:hover {
-            background-color: #2b62e3;
-          }
 
         .hero p {
           font-size: 12px;
-          color: #515D79;
+          font-weight: 400;
           width: 100%;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
           width: 350px;
-          line-height: 14px;
+          line-height: 20px;
+          color: #515D79;
         }
 
         @media only screen and (max-width: 1000px) {
@@ -114,16 +88,116 @@ export default function Hero(props) {
             width: 100%;
           }
         }
+
+        .closed-beta {
+          margin: 0px;
+          padding: 0px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          width: 500px;
+          padding: 0px;
+          overflow: hidden;
+          height: 200px;
+        }
+
+        @media only screen and (max-width: 1000px) {
+          .closed-beta {
+            width: 500px;
+          }
+        }
+
+        .closed-beta div {
+          position: relative;
+        }
+
+        .closed-beta input {
+          border: 0px;
+          padding: 20px;
+          height: 75px;
+          font-size: 14px;
+          color: #F3F6FB;
+          background: #374352;
+          outline: none;
+          width: 500px;
+          box-sizing: border-box;
+          border-radius: 5px;
+          margin-top: 10px;
+        }
+
+          .closed-beta input::placeholder {
+            color: #929AAC;
+          }
+
+        .closed-beta button {
+          background-color: #2b62e3;
+          border-radius: 0px 5px 5px 0px;
+          width: 150px;
+          height: 75px;
+          border: none;
+          font-size: 18px;
+          font-family: aktiv-grotesk-extended, helvetica;
+          color: white;
+          transition: opacity 0.25s linear;
+          opacity: 1;
+          cursor: pointer;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-content: center;
+          align-items: center;   
+          left: 350px;
+          transform: translateY(-100%);
+          outline: none;
+        }
+
+          .closed-beta button:hover {
+            opacity: 0.75;
+          }
+
+          .closed-beta button .text {
+            font-size: 20px;
+            font-family: aktiv-grotesk-extended, sans-serif;
+            font-weight: 500;
+          }
+
+          .closed-beta button .icon {
+            margin-left: 10px;
+            position: relative;
+            top: 2px;
+          }
+
+          .closed-beta button:hover {
+            background-color: #2b62e3;
+          }
       `}</style>
 
       <div className="hero">
         <h1>Bring your team together</h1>
         <h2>Yack is a messaging & collaboration platform that makes sure your team doesn't miss a beat. Even people outside your team will love it.</h2>
-        <a target="_blank" className="button" href="https://yack.app">
-          <span className="text">Get started</span>
-          <span className="icon"><ArrowRight color="white" size="25" /></span>
-        </a>  
-        <p>Yack is free to use for teams of any size during the alpha. Please read our FAQ for more information.</p>    
+        <h3>Join our closed beta</h3>
+
+        <div className="closed-beta">         
+          <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619F53C6A2398CD3130770B2DB5FC77783270ABFD0FCD97749CB1AC95B699CE570C9642292C1DBD22217BCB1866219B7383">
+            <div>
+              <div>
+                <input aria-label="Name" id="fieldName" maxLength="200" name="cm-name" placeholder="Enter full name" />
+              </div>
+              <div>
+                <input autoComplete="Email" aria-label="Email" className="js-cm-email-input qa-input-email" id="fieldEmail" maxLength="200" name="cm-yhllvh-yhllvh" required="" type="email" placeholder="Enter email" />
+              </div>
+            </div>
+            <button type="submit" className="button">
+              <span className="text">Join</span>
+              <span className="icon"><ArrowRight color="white" size="25" /></span>
+            </button>
+          </form>
+        </div>
+
+        <p>Yack is free to use for teams of any size during the alpha & beta releases. Please read our FAQ for more information.</p>    
       </div>
     </React.Fragment>
   )
