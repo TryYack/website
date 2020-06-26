@@ -228,7 +228,7 @@ export default function Features(props) {
           Take back team collaboration
         </h1>
         <h2>
-          Yack makes working on a team fun again. Here are some things Yack can help your team with.
+          Yack makes working in a team fun again. Here are some things Yack can help your team with.
         </h2>
         <div className="small-features">
           <div className="feature">
