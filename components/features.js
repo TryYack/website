@@ -43,7 +43,7 @@ export default function Features(props) {
           margin-top: 100px;
           text-align: center;
           color: #F3F6FB;
-          font-family: "proxima nova", sans-serif;
+          font-family: "proxima-nova", sans-serif;
           font-weight: bold;
           font-style: normal;
         }
@@ -136,7 +136,7 @@ export default function Features(props) {
             .small-features .feature h3 {
               font-size: 22px;
               color: #929AAC;
-              font-family: "proxima soft", sans-serif;
+              font-family: "proxima-soft", sans-serif;
               font-weight: 400;
               margin-bottom: 10px;
             }

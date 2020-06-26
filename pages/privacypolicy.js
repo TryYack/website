@@ -19,7 +19,7 @@ export default function PrivacyPolicy(props) {
         * {
           margin: 0px;
           padding: 0px;
-          font-family: "proxima soft", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+          font-family: "proxima-soft", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
@@ -39,7 +39,7 @@ export default function PrivacyPolicy(props) {
         .container h1 {
           font-size: 50px;
           color: #202529;
-          font-family: "proxima nova", sans-serif;
+          font-family: "proxima-nova", sans-serif;
           font-weight: 900;
           line-height: 80px;
           margin-bottom: 20px;

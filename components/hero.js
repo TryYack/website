@@ -21,7 +21,7 @@ export default function Hero(props) {
         .hero h1 {
           font-size: 100px;
           color: #F3F6FB;
-          font-family: "proxima nova", sans-serif;
+          font-family: "proxima-nova", sans-serif;
           font-weight: 400;
           font-style: normal;
           line-height: 100px;

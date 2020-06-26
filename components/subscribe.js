@@ -24,7 +24,7 @@ export default function Subscribe(props) {
           margin-bottom: 50px;
           text-align: center;
           color: #F3F6FB;
-          font-family: "proxima nova", sans-serif;
+          font-family: "proxima-nova", sans-serif;
           font-weight: bold;
           font-style: normal;
         }

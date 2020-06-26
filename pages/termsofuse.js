@@ -19,7 +19,7 @@ export default function TermsOfUse(props) {
         * {
           margin: 0px;
           padding: 0px;
-          font-family: "proxima soft", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+          font-family: "proxima-soft", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
@@ -40,7 +40,7 @@ export default function TermsOfUse(props) {
           font-size: 50px;
           color: #202529;
           font-weight: 900;
-          font-family: "proxima nova", sans-serif;
+          font-family: "proxima-nova", sans-serif;
           line-height: 80px;
           margin-bottom: 20px;
         }
