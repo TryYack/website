@@ -141,7 +141,7 @@ export default function Faq(props) {
         
         <Row 
           title="I need to connect my GitHub (or other) account"
-          text="We are busy building more integrations, including a Zapier app."
+          text="We are busy building more integrations, in the meantime you can use the Zapier app to connect almost any other platform."
         />
 
         <Row 
