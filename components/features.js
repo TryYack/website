@@ -43,8 +43,8 @@ export default function Features(props) {
           margin-top: 100px;
           text-align: center;
           color: #F3F6FB;
-          font-family: aktiv-grotesk-extended, sans-serif;
-          font-weight: 600;
+          font-family: "proxima nova", sans-serif;
+          font-weight: bold;
           font-style: normal;
         }
 
@@ -83,14 +83,13 @@ export default function Features(props) {
             .hero-features .feature h3 {
               font-size: 22px;
               color: #929AAC;
-              font-family: aktiv-grotesk-extended, sans-serif;
-              font-weight: 400;
+              font-weight: 500;
               margin-bottom: 10px;
             }
 
             .hero-features .feature a {
               font-size: 18px;
-              color: #00aeff;
+              color: #3369E7;
               line-height: 24px;
               text-decoration: none;
               margin-top: 10px;
@@ -135,17 +134,16 @@ export default function Features(props) {
           }
 
             .small-features .feature h3 {
-              font-size: 18px;
+              font-size: 22px;
               color: #929AAC;
-              font-family: aktiv-grotesk-extended, sans-serif;
+              font-family: "proxima soft", sans-serif;
               font-weight: 400;
               margin-bottom: 10px;
             }
 
             .small-features .feature h3 a {
               font-size: 18px;
-              color: #00aeff;
-              font-family: aktiv-grotesk-extended, sans-serif;
+              color: #3369E7;
               font-weight: 400;
               margin-bottom: 10px;
             }

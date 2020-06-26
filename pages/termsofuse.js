@@ -12,14 +12,14 @@ export default function TermsOfUse(props) {
         <title>Yack - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
-        <link rel="stylesheet" href="https://use.typekit.net/kfw2ghz.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/wtx0nht.css"></link>
       </Head>
 
       <style global jsx>{`
         * {
           margin: 0px;
           padding: 0px;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+          font-family: "proxima soft", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
@@ -40,7 +40,7 @@ export default function TermsOfUse(props) {
           font-size: 50px;
           color: #202529;
           font-weight: 900;
-          font-family: aktiv-grotesk-extended, sans-serif;
+          font-family: "proxima nova", sans-serif;
           line-height: 80px;
           margin-bottom: 20px;
         }

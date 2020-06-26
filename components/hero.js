@@ -10,7 +10,7 @@ export default function Hero(props) {
         .hero {
           margin: 0px;
           padding: 0px;
-          padding-bottom: 175px;
+          padding-bottom: 150px;
           width: 100%;            
           flex-direction: column;
           justify-content: center;
@@ -19,32 +19,31 @@ export default function Hero(props) {
         }
 
         .hero h1 {
-          font-size: 82px;
+          font-size: 100px;
           color: #F3F6FB;
-          font-family: aktiv-grotesk-extended, sans-serif;
+          font-family: "proxima nova", sans-serif;
           font-weight: 400;
           font-style: normal;
-          line-height: 75px;
+          line-height: 100px;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
-          margin-top: 50px;
-          width: 50%;
+          margin-top: 10px;
+          width: 650px;
         }
 
         .hero h2 {
           margin-top: 25px;
-          font-size: 22px;
+          font-size: 24px;
           color: #F3F6FB;
           line-height: 35px;
           letter-spacing: 0.75;
-          width: 100%;
           font-weight: 400;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
           margin-bottom: 40px;
-          width: 700px;
+          width: 500px;
         }
 
         .hero h3 {
@@ -62,7 +61,6 @@ export default function Hero(props) {
         .hero p {
           font-size: 12px;
           font-weight: 400;
-          width: 100%;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
@@ -119,7 +117,7 @@ export default function Hero(props) {
           height: 75px;
           font-size: 14px;
           color: #F3F6FB;
-          background: #374352;
+          background: #202c3b;
           outline: none;
           width: 500px;
           box-sizing: border-box;
@@ -128,17 +126,16 @@ export default function Hero(props) {
         }
 
           .closed-beta input::placeholder {
-            color: #929AAC;
+            color: #515D79;
           }
 
         .closed-beta button {
-          background-color: #2b62e3;
+          background-color: #8e43e7;
           border-radius: 0px 5px 5px 0px;
           width: 150px;
           height: 75px;
           border: none;
-          font-size: 18px;
-          font-family: aktiv-grotesk-extended, helvetica;
+          font-size: 22px;
           color: white;
           transition: opacity 0.25s linear;
           opacity: 1;
@@ -159,8 +156,7 @@ export default function Hero(props) {
           }
 
           .closed-beta button .text {
-            font-size: 20px;
-            font-family: aktiv-grotesk-extended, sans-serif;
+            font-size: 24px;
             font-weight: 500;
           }
 

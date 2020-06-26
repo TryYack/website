@@ -56,7 +56,7 @@ function Confirm(props) {
         <title>Yack - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
-        <link rel="stylesheet" href="https://use.typekit.net/kfw2ghz.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/wtx0nht.css"></link>
       </Head>
 
       <style global jsx>{`
@@ -117,7 +117,6 @@ function Confirm(props) {
           color: #007af5;
           font-size: 22px;
           font-weight: 400;
-          font-family: 'hk_groteskmedium', helvetica;
         }
 
         h1 {
@@ -125,8 +124,7 @@ function Confirm(props) {
           font-size: 50px;
           font-weight: 300;
           margin-top: 20px;
-          text-align: center;
-          font-family: 'hk_groteskmedium', helvetica;
+          text-align: center;          
         }
 
         h2 {
@@ -137,7 +135,6 @@ function Confirm(props) {
           padding-right: 20px;
           text-align: center;
           margin-top: 20px;
-          font-family: 'hk_groteskmedium', helvetica;
         }
 
         h2 a {

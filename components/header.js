@@ -59,7 +59,7 @@ export default function Header(props) {
 
           .header .links .bottom a {
             color: #F3F6FB;
-            font-size: 18px;
+            font-size: 16px;
             cursor: pointer;
             font-weight: 500;
             margin-left: 30px;
@@ -67,7 +67,7 @@ export default function Header(props) {
           } 
 
           .header .links .bottom a.button {
-            color: #3369E7;
+            color: #b84592;
             cursor: pointer;
             border: none;
           }
@@ -79,7 +79,7 @@ export default function Header(props) {
       <div className="header">
         <div className="container">
           <a href="/" className="logo">
-            <img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo-text.svg" height="30" alt="Yack"/>
+            <img src="../static/images/logo.png" height="30" alt="Yack"/>
           </a>
 
           <div className="links">
