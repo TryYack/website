@@ -211,8 +211,8 @@ export default function Features(props) {
               <p><a href="https://github.com/Yack" target="_blank">Keep me updated</a></p>
             </div>
             <div className="feature">
-              <h3>We support OSS</h3>
-              <p>The source code for the Yack client app is completely open source, along with other goodies.</p>
+              <h3>Tasks & lists <span className="coming-soon">Coming soon</span></h3>
+              <p>Stay on top of projects with tasks & lists that are assignable to channel members.</p>
               <p><a href="https://github.com/Yack" target="_blank">Read more</a></p>
             </div>
             <div className="feature">

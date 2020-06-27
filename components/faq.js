@@ -116,7 +116,7 @@ export default function Faq(props) {
 
         <Row 
           title="But, is this just another Slack or Microsoft Teams?"
-          text="We believe there are a few things that Yack does better. Being mostly open source for one."
+          text="Yes, but we believe there are a few things that Yack does more intuitively."
         />
 
         <Row 
