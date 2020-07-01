@@ -272,7 +272,7 @@ export default function Features(props) {
         </div>
         <div className="small-features">
           <div className="feature">   
-            <h3>Zapier integration</h3>
+            <h3>Zapier <span className="app">App</span></h3>
             <p>Connect your favourite app to Yack by using our Zapier integration.</p>
           </div>
           <div className="feature">
