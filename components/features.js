@@ -249,7 +249,7 @@ export default function Features(props) {
           </div>
           <div className="feature">
             <h3>Made for remote work</h3>
-            <p>Yack will awlays let you know what timezone your fellow member is on. </p>
+            <p>Yack will always let you know what timezone your fellow member is on. </p>
           </div>
           <div className="feature">
             <h3>Unlimited history</h3>
