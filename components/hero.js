@@ -173,7 +173,7 @@ export default function Hero(props) {
 
       <div className="hero">
         <h1>Bring your team together</h1>
-        <h2>Yack is a messaging & collaboration platform that makes sure your team doesn't miss a beat.</h2>
+        <h2>Weekday is a messaging & collaboration platform that makes sure your team doesn't miss a beat.</h2>
         <h3>Join our closed beta</h3>
 
         <div className="closed-beta">         
@@ -193,7 +193,7 @@ export default function Hero(props) {
           </form>
         </div>
 
-        <p>Yack is free to use for teams of any size during the alpha & beta releases. Please read our FAQ for more information.</p>    
+        <p>Weekday is free to use for teams of any size during the alpha & beta releases. Please read our FAQ for more information.</p>    
       </div>
     </React.Fragment>
   )

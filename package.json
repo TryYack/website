@@ -1,9 +1,9 @@
 {
-  "name": "yack-website",
+  "name": "weekday-website",
   "version": "1.0.0",
-  "description": "NextJS website for Yack",
+  "description": "NextJS website for Weekday",
   "main": "index.js",
-  "repository": "https://github.com/yack/website",
+  "repository": "https://github.com/weekday/website",
   "author": "Jo du Plessis",
   "license": "MIT",
   "dependencies": {

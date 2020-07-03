@@ -208,17 +208,17 @@ export default function Features(props) {
             <div className="feature">
               <h3>Video & audio calls <span className="coming-soon">Coming soon</span></h3>
               <p>Catch up with your team using video or audio calls - keeping it all on one platform.</p>
-              <p><a href="https://github.com/Yack" target="_blank">Keep me updated</a></p>
+              <p><a href="https://github.com/WeekdayApp" target="_blank">Keep me updated</a></p>
             </div>
             <div className="feature">
               <h3>Tasks & lists <span className="coming-soon">Coming soon</span></h3>
               <p>Stay on top of projects with tasks & lists that are assignable to channel members.</p>
-              <p><a href="https://github.com/Yack" target="_blank">Read more</a></p>
+              <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
             </div>
             <div className="feature">
               <h3>Easily extendable</h3>
               <p>Easily extend the platform with tools & examples we're constantly refining and improving.</p>
-              <p><a href="https://github.com/Yack" target="_blank">Read more</a></p>
+              <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
             </div>
           </div>
         </div>
@@ -226,16 +226,16 @@ export default function Features(props) {
           Take back team collaboration
         </h1>
         <h2>
-          Yack makes working in a team fun again. Here are some things Yack can help your team with.
+          Weekday makes working in a team fun again. Here are some things Weekday can help your team with.
         </h2>
         <div className="small-features">
           <div className="feature">
             <h3>Private & public channels</h3>
-            <p>Yack channels can be public or private (when you need to talk one on one). Channels can also be one-way (broadcast) or limited to a group of people.</p>
+            <p>Weekday channels can be public or private (when you need to talk one on one). Channels can also be one-way (broadcast) or limited to a group of people.</p>
           </div>
           <div className="feature">
             <h3>Archiving, muting & starring</h3>
-            <p>When you need to focus on only a few projects, Yack lets you mute, archive or star channels to keep them nice and organised.</p>
+            <p>When you need to focus on only a few projects, Weekday lets you mute, archive or star channels to keep them nice and organised.</p>
           </div>
           <div className="feature">
             <h3>Granular permissions</h3>
@@ -249,7 +249,7 @@ export default function Features(props) {
           </div>
           <div className="feature">
             <h3>Made for remote work</h3>
-            <p>Yack will always let you know what timezone your fellow member is on. </p>
+            <p>Weekday will always let you know what timezone your fellow member is on. </p>
           </div>
           <div className="feature">
             <h3>Unlimited history</h3>
@@ -273,14 +273,14 @@ export default function Features(props) {
         <div className="small-features">
           <div className="feature">   
             <h3>Zapier <span className="app">App</span></h3>
-            <p>Connect your favourite app to Yack by using our Zapier integration.</p>
+            <p>Connect your favourite app to Weekday by using our Zapier integration.</p>
           </div>
           <div className="feature">
             <h3>GDPR <span className="coming-soon">Coming Soon</span></h3>
             <p>We believe that your data is yours and want to do our best in making it as secure & accessible to you as possible.</p>
           </div>
           <div className="feature">
-            <h3>... and more! Go and <a href="https://yack.app" target="_blank">see for youself.</a></h3>
+            <h3>... and more! Go and <a href="https://weekday.app" target="_blank">see for youself.</a></h3>
           </div>
         </div>
       </div>

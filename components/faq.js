@@ -111,12 +111,12 @@ export default function Faq(props) {
         
         <Row 
           title="This seems very new, what's the story?"
-          text="Yack is a new messaging platform built from the ground up to make communication & collaboration easier for your team."
+          text="Weekday is a new messaging platform built from the ground up to make communication & collaboration easier for your team."
         />
 
         <Row 
           title="But, is this just another Slack or Microsoft Teams?"
-          text="Yes, but we believe there are a few things that Yack does more intuitively."
+          text="Yes, but we believe there are a few things that Weekday does more intuitively."
         />
 
         <Row 
@@ -146,7 +146,7 @@ export default function Faq(props) {
 
         <Row 
           title="Something has broken / I can't log in"
-          text="Sorry about that. Yack is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@yack.co' style='color: #00aeff;'>support@yack.co</a> for support."
+          text="Sorry about that. Weekday is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@weekdayapp.com' style='color: #00aeff;'>support@weekdayapp.com</a> for support."
         />
       </div>
     </React.Fragment>

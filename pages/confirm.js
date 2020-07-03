@@ -21,7 +21,7 @@ function Confirm(props) {
 
       // If process is present, then we are running in dev mode
       // Otherwise we are in the browser on Netlify
-      const CONFIRM_URL = 'https://api.yack.co/v1/account/email/confirmed'
+      const CONFIRM_URL = 'https://api.weekdayapp.com/v1/account/email/confirmed'
       //const CONFIRM_URL = 'http://localhost:8181/v1/account/email/confirmed'
 
       fetch(CONFIRM_URL, {
@@ -53,7 +53,7 @@ function Confirm(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>Yack - Give your team superpowers</title>
+        <title>Weekday - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <link rel="stylesheet" href="https://use.typekit.net/wtx0nht.css"></link>
@@ -145,7 +145,7 @@ function Confirm(props) {
       <div className="container">
         <div className="inner">
           <div className="logo">
-            <img src="../static/images/logo.svg" height="20" alt="Yack"/>
+            <img src="../static/images/logo.svg" height="20" alt="Weekday"/>
           </div>
 
           {error && !loading &&
@@ -160,7 +160,7 @@ function Confirm(props) {
             <React.Fragment>
               <p><img src="../static/images/confirm_email_confirmed.png" height="150" /></p>
               <h1>Congratulations!</h1>
-              <h2>This email address is now confirmed! Please <a href="https://yack.app" target="_blank">click here</a> to log in.</h2>
+              <h2>This email address is now confirmed! Please <a href="https://weekday.app" target="_blank">click here</a> to log in.</h2>
             </React.Fragment>
           }
         </div>

@@ -11,7 +11,7 @@ export default function Home(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>Yack - Give your team superpowers</title>
+        <title>Weekday - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>

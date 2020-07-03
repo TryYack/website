@@ -79,7 +79,7 @@ export default function Header(props) {
       <div className="header">
         <div className="container">
           <a href="/" className="logo">
-            <img src="../static/images/logo.png" height="30" alt="Yack"/>
+            <img src="../static/images/logo.png" height="30" alt="Weekday"/>
           </a>
 
           <div className="links">
@@ -89,8 +89,8 @@ export default function Header(props) {
               <a href="/">Home</a>
               <a href="/#features">Features</a>
               <a href="/#faq">FAQ</a>
-              <a href="mailto:support@yack.co">Support</a>
-              <a href="https://yack.app" target="_blank" className="button">Login / Signup</a>            
+              <a href="mailto:support@weekdayapp.com">Support</a>
+              <a href="https://weekday.app" target="_blank" className="button">Login / Signup</a>            
             </div>
           </div>
         </div>

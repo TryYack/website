@@ -63,17 +63,17 @@ export default function Footer(props) {
         <Subscribe />  
 
         <p>
-          Yack &copy; 2020 - All rights reserved 
+          Weekday &copy; 2020 - All rights reserved 
         </p>
         <div className="image">
           
         </div>
         <ul>
-          {/* <li><a href="/"><img src="https://yack-marketing.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Yack" border="0" /></a></li> */}
+          {/* <li><a href="/"><img src="https://weekday-assets.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Weekday" border="0" /></a></li> */}
           <li><a href="/privacypolicy">Privacy policy</a></li>
           <li><a href="/termsofuse">Terms of use</a></li>
-          <li><a href="https://github.com/Yack" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
-          {/* <li><a href="https://twitter.com/yackhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li> */}
+          <li><a href="https://github.com/WeekdayApp" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
+          {/* <li><a href="https://twitter.com/weekdayhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li> */}
         </ul>
       </div>
     </React.Fragment>

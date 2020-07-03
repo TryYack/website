@@ -9,7 +9,7 @@ export default function PrivacyPolicy(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>Yack - Give your team superpowers</title>
+        <title>Weekday - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />        
         <link rel="stylesheet" href="https://use.typekit.net/wtx0nht.css"></link>
@@ -72,7 +72,7 @@ export default function PrivacyPolicy(props) {
 
       <div className="container">
         <h1>Privacy policy</h1>
-        <p>Your privacy is important to us. It is Yack's policy to respect your privacy regarding any information we may collect from you across our website, https://yack.co, and other sites we own and operate.</p>
+        <p>Your privacy is important to us. It is Weekday's policy to respect your privacy regarding any information we may collect from you across our website, https://weekdayapp.com, and other sites we own and operate.</p>
         <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
         <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
         <p>We don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>
@@ -82,7 +82,7 @@ export default function PrivacyPolicy(props) {
         <p>This policy is effective as of 22 June 2020.</p>
         <h2>Address</h2>
         <p>60 Marine Drive, Umhlanga, KZN, South Africa</p>
-        <p>Email: support@yack.co</p>
+        <p>Email: support@weekdayapp.com</p>
       </div>
       <Footer />
     </React.Fragment>
