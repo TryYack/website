@@ -280,7 +280,7 @@ export default function Features(props) {
             <p>We believe that your data is yours and want to do our best in making it as secure & accessible to you as possible.</p>
           </div>
           <div className="feature">
-            <h3>... and more! Go and <a href="https://weekday.app" target="_blank">see for youself.</a></h3>
+            <h3>... and more! Go and <a href="https://app.weekdayapp.com" target="_blank">see for youself.</a></h3>
           </div>
         </div>
       </div>

@@ -90,7 +90,7 @@ export default function Header(props) {
               <a href="/#features">Features</a>
               <a href="/#faq">FAQ</a>
               <a href="mailto:support@weekdayapp.com">Support</a>
-              <a href="https://weekday.app" target="_blank" className="button">Login / Signup</a>            
+              <a href="https://app.weekdayapp.com" target="_blank" className="button">Login / Signup</a>            
             </div>
           </div>
         </div>

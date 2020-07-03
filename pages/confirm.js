@@ -160,7 +160,7 @@ function Confirm(props) {
             <React.Fragment>
               <p><img src="../static/images/confirm_email_confirmed.png" height="150" /></p>
               <h1>Congratulations!</h1>
-              <h2>This email address is now confirmed! Please <a href="https://weekday.app" target="_blank">click here</a> to log in.</h2>
+              <h2>This email address is now confirmed! Please <a href="https://app.weekdayapp.com" target="_blank">click here</a> to log in.</h2>
             </React.Fragment>
           }
         </div>
