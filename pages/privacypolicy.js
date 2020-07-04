@@ -11,7 +11,7 @@ export default function PrivacyPolicy(props) {
       <Head>
         <title>Weekday - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link href="/static/images/favicon.png" rel="shortcut icon" />        
+        <link href="/static/images/favicon.png" rel="shortcut icon" />
         <link rel="stylesheet" href="https://use.typekit.net/wtx0nht.css"></link>
       </Head>
 
@@ -25,7 +25,9 @@ export default function PrivacyPolicy(props) {
         }
 
         body {
-          background: white;
+          background-color: #151c26;
+          background-image: url(../static/images/bg.png);
+          background-size: contain;
         }
 
         .container {
@@ -38,9 +40,9 @@ export default function PrivacyPolicy(props) {
 
         .container h1 {
           font-size: 50px;
-          color: #202529;
-          font-family: "proxima-nova", sans-serif;
+          color: white;
           font-weight: 900;
+          font-family: "proxima-nova", sans-serif;
           line-height: 80px;
           margin-bottom: 20px;
         }
@@ -48,7 +50,7 @@ export default function PrivacyPolicy(props) {
         .container h2 {
           margin-top: 25px;
           font-size: 25px;
-          color: #202529;
+          color: white;
           line-height: 40px;
           font-weight: 300;
           width: 40%;
@@ -58,13 +60,21 @@ export default function PrivacyPolicy(props) {
           color: #10ACF3;
         }
 
-        .container p, .container li {
+        .container p {
           font-size: 16px;
-          line-height: 18px;
-          color: #808080;
+          color: white;
           padding-bottom: 10px;
           font-weight: 500;
           line-height: 24px;
+        }
+
+        .container li {
+          font-size: 16px;
+          line-height: 22px;
+          color: white;
+          margin-left: 20px;
+          padding-bottom: 10px;
+          font-weight: 500;
         }
       `}</style>
 

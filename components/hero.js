@@ -11,18 +11,18 @@ export default function Hero(props) {
           margin: 0px;
           padding: 0px;
           padding-bottom: 150px;
-          width: 100%;            
+          width: 100%;
           flex-direction: column;
           justify-content: center;
           align-content: center;
-          align-items: center;  
+          align-items: center;
         }
 
         .hero h1 {
           font-size: 100px;
           color: #F3F6FB;
           font-family: "proxima-nova", sans-serif;
-          font-weight: 400;
+          font-weight: 300;
           font-style: normal;
           line-height: 100px;
           text-align: center;
@@ -145,7 +145,7 @@ export default function Hero(props) {
           flex-direction: row;
           justify-content: center;
           align-content: center;
-          align-items: center;   
+          align-items: center;
           left: 350px;
           transform: translateY(-100%);
           outline: none;
@@ -176,7 +176,7 @@ export default function Hero(props) {
         <h2>Weekday is a messaging & collaboration platform that makes sure your team doesn't miss a beat.</h2>
         <h3>Join our closed beta</h3>
 
-        <div className="closed-beta">         
+        <div className="closed-beta">
           <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619F53C6A2398CD3130770B2DB5FC77783270ABFD0FCD97749CB1AC95B699CE570C9642292C1DBD22217BCB1866219B7383">
             <div>
               <div>
@@ -193,7 +193,7 @@ export default function Hero(props) {
           </form>
         </div>
 
-        <p>Weekday is free to use for teams of any size during the alpha & beta releases. Please read our FAQ for more information.</p>    
+        <p>Weekday is free to use for teams of any size during the alpha & beta releases. Please read our FAQ for more information.</p>
       </div>
     </React.Fragment>
   )

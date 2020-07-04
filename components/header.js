@@ -6,8 +6,8 @@ export default function Header(props) {
     <React.Fragment>
       <style jsx>{`
         .header {
-          width: 100%; 
-          background: #151c26;
+          width: 100%;
+          /*background: #151c26;*/
         }
 
         .header .container {
@@ -51,7 +51,7 @@ export default function Header(props) {
             font-weight: 600;
             margin-left: 20px;
             text-decoration: none;
-          } 
+          }
 
         .header .links .bottom {
           text-align: right;
@@ -64,7 +64,7 @@ export default function Header(props) {
             font-weight: 500;
             margin-left: 30px;
             text-decoration: none;
-          } 
+          }
 
           .header .links .bottom a.button {
             color: #b84592;
@@ -79,7 +79,7 @@ export default function Header(props) {
       <div className="header">
         <div className="container">
           <a href="/" className="logo">
-            <img src="../static/images/logo.png" height="30" alt="Weekday"/>
+            <img src="../static/images/logo.png" height="50" alt="Weekday"/>
           </a>
 
           <div className="links">
@@ -90,7 +90,7 @@ export default function Header(props) {
               <a href="/#features">Features</a>
               <a href="/#faq">FAQ</a>
               <a href="mailto:support@weekdayapp.com">Support</a>
-              <a href="https://app.weekdayapp.com" target="_blank" className="button">Login / Signup</a>            
+              <a href="https://app.weekdayapp.com" target="_blank" className="button">Login / Signup</a>
             </div>
           </div>
         </div>

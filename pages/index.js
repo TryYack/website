@@ -28,7 +28,9 @@ export default function Home(props) {
         }
 
         body {
-          background: #151c26;
+          background-color: #151c26;
+          background-image: url(../static/images/bg.png);
+          background-size: contain;
         }
       `}</style>
 

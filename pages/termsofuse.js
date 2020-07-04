@@ -25,7 +25,9 @@ export default function TermsOfUse(props) {
         }
 
         body {
-          background: white;
+          background-color: #151c26;
+          background-image: url(../static/images/bg.png);
+          background-size: contain;
         }
 
         .container {
@@ -38,7 +40,7 @@ export default function TermsOfUse(props) {
 
         .container h1 {
           font-size: 50px;
-          color: #202529;
+          color: white;
           font-weight: 900;
           font-family: "proxima-nova", sans-serif;
           line-height: 80px;
@@ -48,7 +50,7 @@ export default function TermsOfUse(props) {
         .container h2 {
           margin-top: 25px;
           font-size: 25px;
-          color: #202529;
+          color: white;
           line-height: 40px;
           font-weight: 300;
           width: 40%;
@@ -60,16 +62,16 @@ export default function TermsOfUse(props) {
 
         .container p {
           font-size: 16px;
-          color: #808080;
+          color: white;
           padding-bottom: 10px;
           font-weight: 500;
           line-height: 24px;
         }
-        
+
         .container li {
           font-size: 16px;
           line-height: 22px;
-          color: #808080;
+          color: white;
           margin-left: 20px;
           padding-bottom: 10px;
           font-weight: 500;
@@ -77,7 +79,7 @@ export default function TermsOfUse(props) {
       `}</style>
 
       <Header />
-      
+
       <div className="container">
         <h1>Terms of use</h1>
         <h2>1. Terms</h2>
