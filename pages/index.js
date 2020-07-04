@@ -30,7 +30,7 @@ export default function Home(props) {
         body {
           background-color: #151c26;
           background-image: url(../static/images/bg.png);
-          background-size: cover;
+          background-size: 100%;
         }
       `}</style>
 
