@@ -168,7 +168,7 @@ export default function Hero(props) {
           }
 
           .closed-beta button:hover {
-            background-color: #2b62e3;
+            opacity: 0.75;
           }
       `}</style>
 
