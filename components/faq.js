@@ -11,12 +11,12 @@ function Row(props) {
         .row {
           width: 50%;
           margin-right: auto;
-          margin-left: auto;   
+          margin-left: auto;
           display: flex;
           flex-direction: row;
           justify-content: center;
           align-content: center;
-          align-items: flex-start;  
+          align-items: flex-start;
           margin-bottom: 20px;
         }
 
@@ -32,7 +32,7 @@ function Row(props) {
 
         .row .content {
           width: 90%;
-          margin-left: 10px;  
+          margin-left: 10px;
         }
 
           .row .content h3 {
@@ -40,7 +40,7 @@ function Row(props) {
             color: #929AAC;
             font-family: "proxima-nova", sans-serif;
             font-weight: 400;
-            
+
             opacity: 1;
             transition: opacity 0.5s;
             cursor: pointer;
@@ -98,8 +98,8 @@ export default function Faq(props) {
           margin-bottom: 50px;
           text-align: center;
           color: #F3F6FB;
-          font-family: "proxima-nova", sans-serif;
-          font-weight: bold;
+          font-family: aktiv-grotesk-extended, sans-serif;
+          font-weight: 500;
           font-style: normal;
         }
       `}</style>
@@ -108,43 +108,43 @@ export default function Faq(props) {
         <h1>
           FAQ
         </h1>
-        
-        <Row 
+
+        <Row
           title="This seems very new, what's the story?"
           text="Weekday is a new messaging platform built from the ground up to make communication & collaboration easier for your team."
         />
 
-        <Row 
+        <Row
           title="But, is this just another Slack or Microsoft Teams?"
           text="Yes, but we believe there are a few things that Weekday does more intuitively."
         />
 
-        <Row 
+        <Row
           title="Where is the pricing information?"
           text="We are busy finalising our paid plans - please subscribe to our mailing list to keep updated on how premium plans will affect current features."
         />
 
-        <Row 
+        <Row
           title="Data & security is pretty important to us."
           text="We're rolling out GDPR compliance very soon and will update people as soon as we can about that - subscribe to our mailing list to keep updated."
         />
 
-        <Row 
+        <Row
           title="Why not open source the API as well?"
           text="By playing a few things closer to the chest, we feel more confident about giving users the best experience."
         />
 
-        <Row 
+        <Row
           title="When will a more stable beta release happen?"
           text="Soon - subscribe to the mailing list to keep updated!"
         />
-        
-        <Row 
+
+        <Row
           title="I need to connect my GitHub (or other) account"
           text="We are busy building more integrations, in the meantime you can use the Zapier app to connect almost any other platform."
         />
 
-        <Row 
+        <Row
           title="Something has broken / I can't log in"
           text="Sorry about that. Weekday is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@weekdayapp.com' style='color: #00aeff;'>support@weekdayapp.com</a> for support."
         />

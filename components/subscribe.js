@@ -24,8 +24,8 @@ export default function Subscribe(props) {
           margin-bottom: 50px;
           text-align: center;
           color: #F3F6FB;
-          font-family: "proxima-nova", sans-serif;
-          font-weight: bold;
+          font-family: aktiv-grotesk-extended, sans-serif;
+          font-weight: 500;
           font-style: normal;
         }
 
@@ -87,10 +87,11 @@ export default function Subscribe(props) {
           flex-direction: row;
           justify-content: center;
           align-content: center;
-          align-items: center;   
+          align-items: center;
           left: 350px;
           transform: translateY(-100%);
           outline: none;
+          font-family: aktiv-grotesk-extended, sans-serif;
         }
 
         .subscribe button:hover {

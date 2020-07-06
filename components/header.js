@@ -61,7 +61,7 @@ export default function Header(props) {
             color: #F3F6FB;
             font-size: 16px;
             cursor: pointer;
-            font-weight: 500;
+            font-weight: 400;
             margin-left: 30px;
             text-decoration: none;
           }

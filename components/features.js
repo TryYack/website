@@ -43,8 +43,8 @@ export default function Features(props) {
           margin-top: 100px;
           text-align: center;
           color: #F3F6FB;
-          font-family: "proxima-nova", sans-serif;
-          font-weight: bold;
+          font-family: aktiv-grotesk-extended, sans-serif;
+          font-weight: 500;
           font-style: normal;
         }
 
@@ -83,7 +83,8 @@ export default function Features(props) {
             .hero-features .feature h3 {
               font-size: 22px;
               color: #929AAC;
-              font-weight: 500;
+              font-family: aktiv-grotesk-extended, sans-serif;
+              font-weight: 400;
               margin-bottom: 10px;
             }
 
@@ -134,9 +135,9 @@ export default function Features(props) {
           }
 
             .small-features .feature h3 {
-              font-size: 22px;
+              font-size: 18px;
               color: #929AAC;
-              font-family: "proxima-soft", sans-serif;
+              font-family: aktiv-grotesk-extended, sans-serif;
               font-weight: 400;
               margin-bottom: 10px;
             }
@@ -175,7 +176,7 @@ export default function Features(props) {
             }
 
             .small-features .feature p {
-              font-size: 14px;
+              font-size: 16px;
               color: #F3F6FB;
               line-height: 24px;
             }
@@ -271,7 +272,7 @@ export default function Features(props) {
           </div>
         </div>
         <div className="small-features">
-          <div className="feature">   
+          <div className="feature">
             <h3>Zapier <span className="app">App</span></h3>
             <p>Connect your favourite app to Weekday by using our Zapier integration.</p>
           </div>
