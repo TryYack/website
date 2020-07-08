@@ -43,8 +43,7 @@ export default function Features(props) {
           margin-top: 100px;
           text-align: center;
           color: #F3F6FB;
-          font-family: aktiv-grotesk-extended, sans-serif;
-          font-weight: 500;
+          font-weight: 400;
           font-style: normal;
         }
 
@@ -83,7 +82,6 @@ export default function Features(props) {
             .hero-features .feature h3 {
               font-size: 22px;
               color: #929AAC;
-              font-family: aktiv-grotesk-extended, sans-serif;
               font-weight: 400;
               margin-bottom: 10px;
             }
@@ -137,7 +135,6 @@ export default function Features(props) {
             .small-features .feature h3 {
               font-size: 18px;
               color: #929AAC;
-              font-family: aktiv-grotesk-extended, sans-serif;
               font-weight: 400;
               margin-bottom: 10px;
             }

@@ -38,7 +38,6 @@ function Row(props) {
           .row .content h3 {
             font-size: 22px;
             color: #929AAC;
-            font-family: "proxima-nova", sans-serif;
             font-weight: 400;
 
             opacity: 1;

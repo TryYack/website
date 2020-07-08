@@ -15,14 +15,14 @@ export default function Home(props) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
-        <link rel="stylesheet" href="https://use.typekit.net/njt5tyh.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/jze8wix.css"></link>
       </Head>
 
       <style global jsx>{`
         * {
           margin: 0px;
           padding: 0px;
-          font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+          font-family: "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }

@@ -19,17 +19,16 @@ export default function Hero(props) {
         }
 
         .hero h1 {
-          font-size: 90px;
+          font-size: 100px;
           color: #F3F6FB;
-          font-family: aktiv-grotesk-extended, sans-serif;
-          font-weight: 300;
+          font-weight: 200;
           font-style: normal;
-          line-height: 100px;
+          line-height: 120px;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
-          margin-top: 10px;
-          width: 700px;
+          margin-top: 0px;
+          width: 600px;
         }
 
         .hero h2 {
@@ -38,7 +37,7 @@ export default function Hero(props) {
           color: #F3F6FB;
           line-height: 35px;
           letter-spacing: 0.75;
-          font-weight: 400;
+          font-weight: 300;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
@@ -158,13 +157,12 @@ export default function Hero(props) {
           .closed-beta button .text {
             font-size: 24px;
             font-weight: 500;
-            font-family: aktiv-grotesk-extended, sans-serif;
           }
 
           .closed-beta button .icon {
             margin-left: 10px;
             position: relative;
-            top: 2px;
+            top: 6px;
           }
 
           .closed-beta button:hover {
