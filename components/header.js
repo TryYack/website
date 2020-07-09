@@ -7,13 +7,10 @@ export default function Header(props) {
       <style jsx>{`
         .header {
           width: 100%;
-          /*background: #151c26;*/
         }
 
-        .header .container {
-          margin-left: auto;
-          margin-right: auto;
-          width: 80%;
+        .header .h-container {
+          width: 100%;
           padding-top: 75px;
           padding-bottom: 30px;
           display: flex;
@@ -23,75 +20,62 @@ export default function Header(props) {
           align-items: center;
         }
 
-        .header .logo {
+        .header .h-container .flexer {
+          flex: 1;
+        }
+
+        .header .h-container .logo {
           position: relative;
           z-index: 1000;
+          display: block;
+          margin-left: 50px;
+        }
+
+        .header .h-container .links {
           display: flex;
           flex-direction: row;
-          justify-content: flex-start;
+          justify-content: flex-end;
           align-content: center;
           align-items: center;
-          margin-right: auto;
+          margin-right: 50px;
         }
 
-        .header .links {
-
-        }
-
-        .header .links .top {
-          text-align: right;
-          margin-bottom: 20px;
-        }
-
-          .header .links .top a {
-            color: #ACB5BD;
-            background-color: white;
-            font-size: 12px;
-            cursor: pointer;
-            font-weight: 600;
-            margin-left: 20px;
-            text-decoration: none;
-          }
-
-        .header .links .bottom {
-          text-align: right;
-        }
-
-          .header .links .bottom a {
-            color: #F3F6FB;
+          .header .h-container .links a {
+            color: white;
             font-size: 16px;
+            display: block;
             cursor: pointer;
-            font-weight: 400;
+            font-weight: 500;
             margin-left: 30px;
             text-decoration: none;
           }
 
-          .header .links .bottom a.button {
+            .header .h-container .links a:first-child {
+              margin-left: 0px;
+            }
+
+          .header .h-container .links a.button {
             color: #b84592;
-            cursor: pointer;
-            border: none;
           }
 
-          .header .links .bottom a.button:hover {
-            color: #2b62e3;
+          .header .h-container .links a:hover {
+            opacity: 0.8;
           }
       `}</style>
       <div className="header">
-        <div className="container">
+        <div className="h-container">
           <a href="/" className="logo">
             <img src="../static/images/logo.png" height="50" alt="Weekday"/>
           </a>
 
+          <div className="flexer"></div>
+
           <div className="links">
-            {/* <div className="top">
-            </div> */}
-            <div className="bottom">
-              <a href="/">Home</a>
-              <a href="/#features">Features</a>
-              <a href="/#faq">FAQ</a>
-              <a href="mailto:support@weekdayapp.com">Support</a>
-              <a href="https://app.weekdayapp.com" target="_blank" className="button">Login / Signup</a>
-            </div>
+            <a href="/">Home</a>
+            <a href="/#features">Features</a>
+            <a href="/#faq">FAQ</a>
+            <a href="mailto:support@weekdayapp.com">Support</a>
+            <a href="https://app.weekdayapp.com" target="_blank" className="button">Login / Signup</a>
           </div>
         </div>
       </div>

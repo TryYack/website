@@ -37,8 +37,8 @@ function Row(props) {
 
           .row .content h3 {
             font-size: 22px;
-            color: #929AAC;
-            font-weight: 400;
+            color: #6E7E97;
+            font-weight: 500;
 
             opacity: 1;
             transition: opacity 0.5s;
@@ -50,18 +50,19 @@ function Row(props) {
             }
 
           .row .content p {
-            font-size: 16px;
+            font-size: 14px;
             display: ${open ? 'block' : 'none'};
-            color: #F3F6FB;
+            color: #858E96;
             line-height: 24px;
             padding-bottom: 10px;
             padding-top: 5px;
             width: 100%;
+            font-weight: 500;
           }
       `}</style>
       <div className="row">
         <div className="icon" onClick={() => setOpen(!open)}>
-          {open ? <ChevronDown color="#929AAC" size={24} /> : <ChevronRight color="#929AAC" size={24} />}
+          {open ? <ChevronDown color="#6E7E97" size={24} /> : <ChevronRight color="#6E7E97" size={24} />}
         </div>
         <div className="content">
           <h3 onClick={() => setOpen(!open)}>{props.title}</h3>
@@ -78,6 +79,7 @@ export default function Faq(props) {
       <style jsx>{`
         .faq {
           background-color: #212835;
+          background-color: #F7F8F9;
           padding: 50px;
           padding-top: 0px;
           padding-bottom: 0px;
@@ -96,9 +98,9 @@ export default function Faq(props) {
           margin-top: 50px;
           margin-bottom: 50px;
           text-align: center;
-          color: #F3F6FB;
+          color: #21232C;
           font-family: aktiv-grotesk-extended, sans-serif;
-          font-weight: 500;
+          font-weight: 700;
           font-style: normal;
         }
       `}</style>

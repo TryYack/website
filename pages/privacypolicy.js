@@ -25,52 +25,57 @@ export default function PrivacyPolicy(props) {
         }
 
         body {
-          background-color: #151c26;
+          background-color: white;
           background-image: url(../static/images/bg.png);
           background-size: 100%;
         }
 
-        .container {
+        .content-container {
+          background: white;
+          background-color: #F7F8F9;
           padding-top: 50px;
           padding-bottom: 30px;
           margin-left: auto;
           margin-right: auto;
-          width: 80%;
+          width: 100%;
+          padding-right: 50px;
+          padding-left: 50px;
         }
 
-        .container h1 {
+        .content-container h1 {
           font-size: 50px;
-          color: white;
+          color: #21232C;
           font-weight: 400;
           line-height: 80px;
           margin-bottom: 20px;
         }
 
-        .container h2 {
+        .content-container h2 {
           margin-top: 25px;
           font-size: 25px;
           color: white;
           line-height: 40px;
           font-weight: 300;
+          color: #6E7E97;
           width: 40%;
         }
 
-        .container a {
+        .content-container a {
           color: #10ACF3;
         }
 
-        .container p {
+        .content-container p {
           font-size: 16px;
-          color: white;
+          color: #6E7E97;
           padding-bottom: 10px;
           font-weight: 500;
           line-height: 24px;
         }
 
-        .container li {
+        .content-container li {
           font-size: 16px;
           line-height: 22px;
-          color: white;
+          color: #6E7E97;
           margin-left: 20px;
           padding-bottom: 10px;
           font-weight: 500;
@@ -79,7 +84,7 @@ export default function PrivacyPolicy(props) {
 
       <Header />
 
-      <div className="container">
+      <div className="content-container">
         <h1>Privacy policy</h1>
         <p>Your privacy is important to us. It is Weekday's policy to respect your privacy regarding any information we may collect from you across our website, https://weekdayapp.com, and other sites we own and operate.</p>
         <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>

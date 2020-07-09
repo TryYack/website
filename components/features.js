@@ -7,6 +7,7 @@ export default function Features(props) {
       <style jsx>{`
         .features {
           background-color: #212835;
+          background-color: #F7F8F9;
           padding: 50px;
           padding-top: 0px;
           padding-bottom: 0px;
@@ -33,6 +34,9 @@ export default function Features(props) {
           display: inline-block;
           border-radius: 10px;
           width: 100%;
+          -webkit-box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.26);
+          -moz-box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.26);
+          box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.26);
         }
 
         .features h1 {
@@ -42,8 +46,8 @@ export default function Features(props) {
           margin-left: auto;
           margin-top: 100px;
           text-align: center;
-          color: #F3F6FB;
-          font-weight: 400;
+          color: #21232C;
+          font-weight: 700;
           font-style: normal;
         }
 
@@ -55,7 +59,7 @@ export default function Features(props) {
           margin-left: auto;
           margin-bottom: 100px;
           text-align: center;
-          color: #929AAC;
+          color: #6E7E97;
           font-weight: 400;
           line-height: 30px;
           font-style: normal;
@@ -81,8 +85,8 @@ export default function Features(props) {
 
             .hero-features .feature h3 {
               font-size: 22px;
-              color: #929AAC;
-              font-weight: 400;
+              color: #21232C;
+              font-weight: 600;
               margin-bottom: 10px;
             }
 
@@ -110,8 +114,9 @@ export default function Features(props) {
 
             .hero-features .feature p {
               font-size: 18px;
-              color: #F3F6FB;
+              color: #6E7E97;
               line-height: 24px;
+              font-weight: 400;
             }
 
         .small-features {
@@ -134,8 +139,8 @@ export default function Features(props) {
 
             .small-features .feature h3 {
               font-size: 18px;
-              color: #929AAC;
-              font-weight: 400;
+              color: #21232C;
+              font-weight: 600;
               margin-bottom: 10px;
             }
 
@@ -174,8 +179,9 @@ export default function Features(props) {
 
             .small-features .feature p {
               font-size: 16px;
-              color: #F3F6FB;
+              color: #6E7E97;
               line-height: 24px;
+              font-weight: 400;
             }
 
         @media only screen and (max-width: 1000px) {

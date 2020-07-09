@@ -19,11 +19,11 @@ export default function Hero(props) {
         }
 
         .hero h1 {
-          font-size: 100px;
-          color: #F3F6FB;
-          font-weight: 200;
+          font-size: 80px;
+          color: white;
+          font-weight: 600;
           font-style: normal;
-          line-height: 120px;
+          line-height: 100px;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
@@ -34,10 +34,10 @@ export default function Hero(props) {
         .hero h2 {
           margin-top: 40px;
           font-size: 24px;
-          color: #F3F6FB;
+          color: white;
           line-height: 35px;
           letter-spacing: 0.75;
-          font-weight: 300;
+          font-weight: 400;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
@@ -115,7 +115,7 @@ export default function Hero(props) {
           padding: 20px;
           height: 75px;
           font-size: 14px;
-          color: #F3F6FB;
+          color: white;
           background: #08112e;
           outline: none;
           width: 500px;
@@ -155,14 +155,15 @@ export default function Hero(props) {
           }
 
           .closed-beta button .text {
-            font-size: 24px;
-            font-weight: 500;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
           }
 
           .closed-beta button .icon {
             margin-left: 10px;
             position: relative;
-            top: 6px;
+            top: 3px;
           }
 
           .closed-beta button:hover {

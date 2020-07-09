@@ -16,13 +16,14 @@ export default function Home(props) {
         <link href="/static/images/favicon.png" rel="shortcut icon" />
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/jze8wix.css"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <style global jsx>{`
         * {
           margin: 0px;
           padding: 0px;
-          font-family: "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+          font-family: 'Montserrat', "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }

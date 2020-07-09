@@ -30,47 +30,52 @@ export default function TermsOfUse(props) {
           background-size: 100%;
         }
 
-        .container {
+        .content-container {
+          background: white;
+          background-color: #F7F8F9;
           padding-top: 50px;
           padding-bottom: 30px;
           margin-left: auto;
           margin-right: auto;
-          width: 80%;
+          width: 100%;
+          padding-right: 50px;
+          padding-left: 50px;
         }
 
-        .container h1 {
+        .content-container h1 {
           font-size: 50px;
-          color: white;
+          color: #21232C;
           font-weight: 400;
           line-height: 80px;
           margin-bottom: 20px;
         }
 
-        .container h2 {
+        .content-container h2 {
           margin-top: 25px;
           font-size: 25px;
           color: white;
+          color: #6E7E97;
           line-height: 40px;
           font-weight: 300;
           width: 40%;
         }
 
-        .container a {
+        .content-container a {
           color: #10ACF3;
         }
 
-        .container p {
+        .content-container p {
           font-size: 16px;
-          color: white;
+          color: #6E7E97;
           padding-bottom: 10px;
           font-weight: 500;
           line-height: 24px;
         }
 
-        .container li {
+        .content-container li {
           font-size: 16px;
           line-height: 22px;
-          color: white;
+          color: #6E7E97;
           margin-left: 20px;
           padding-bottom: 10px;
           font-weight: 500;
@@ -79,7 +84,7 @@ export default function TermsOfUse(props) {
 
       <Header />
 
-      <div className="container">
+      <div className="content-container">
         <h1>Terms of use</h1>
         <h2>1. Terms</h2>
         <p>By accessing the website at https://weekdayapp.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>

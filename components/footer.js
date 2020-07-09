@@ -9,17 +9,19 @@ export default function Footer(props) {
       <style jsx>{`
         .footer {
           background-color: #212835;
+          background-color: #F7F8F9;
           padding: 50px;
         }
 
         .footer p {
-          font-size: 15px;
+          font-size: 14px;
           width: 50%;
           margin-right: auto;
           margin-left: auto;
           text-align: center;
           color: #8492A6;
           line-height: 25px;
+          font-weight: 500;
         }
 
         .footer .image {
@@ -50,8 +52,10 @@ export default function Footer(props) {
         .footer ul li a {
           transition: opacity 0.25s linear;
           opacity: 1;
-          color: #929AAC;
+          color: #6E7E97;
           text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
         }
 
         .footer ul li a:hover {
@@ -60,13 +64,13 @@ export default function Footer(props) {
       `}</style>
 
       <div className="footer">
-        <Subscribe />  
+        <Subscribe />
 
         <p>
-          Weekday &copy; 2020 - All rights reserved 
+          Weekday &copy; 2020 - All rights reserved
         </p>
         <div className="image">
-          
+
         </div>
         <ul>
           {/* <li><a href="/"><img src="https://weekday-assets.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Weekday" border="0" /></a></li> */}

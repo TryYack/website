@@ -6,6 +6,7 @@ export default function Subscribe(props) {
       <style global jsx>{`
         .subscribe {
           background-color: #212835;
+          background-color: #F7F8F9;
           margin: 0px;
           padding: 0px;
           margin-top: 30px;
@@ -23,8 +24,8 @@ export default function Subscribe(props) {
           margin-left: auto;
           margin-bottom: 50px;
           text-align: center;
-          color: #F3F6FB;
-          font-weight: 400;
+          color: #21232C;
+          font-weight: 700;
           font-style: normal;
         }
 
@@ -36,7 +37,7 @@ export default function Subscribe(props) {
           margin-left: auto;
           margin-bottom: 100px;
           text-align: center;
-          color: #929AAC;
+          color: #6E7E97;
           font-weight: 400;
           line-height: 30px;
           font-style: normal;
@@ -57,8 +58,8 @@ export default function Subscribe(props) {
           padding: 20px;
           height: 75px;
           font-size: 14px;
-          color: #F3F6FB;
-          background: #374352;
+          color: #6E7E97;
+          background: #EAEDEF;
           outline: none;
           width: 500px;
           box-sizing: border-box;
@@ -76,7 +77,6 @@ export default function Subscribe(props) {
           width: 150px;
           height: 75px;
           border: none;
-          font-size: 22px;
           color: white;
           transition: opacity 0.25s linear;
           opacity: 1;
@@ -90,6 +90,9 @@ export default function Subscribe(props) {
           left: 350px;
           transform: translateY(-100%);
           outline: none;
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
         }
 
         .subscribe button:hover {
