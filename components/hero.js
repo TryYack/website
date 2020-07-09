@@ -116,7 +116,7 @@ export default function Hero(props) {
           height: 75px;
           font-size: 14px;
           color: #F3F6FB;
-          background: #202c3b;
+          background: #08112e;
           outline: none;
           width: 500px;
           box-sizing: border-box;
