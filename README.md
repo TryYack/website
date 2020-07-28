@@ -5,4 +5,4 @@ Weekday is a messaging platform that helps your team get things done - like they
 
 Send queries to [support@weekdayapp.com](mailto:support@weekdayapp.com?subject=Olla)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/233bd7fd-19ec-4123-85c7-dc2bed39fc0f/deploy-status)](https://app.netlify.com/sites/pedantic-kilby-7c1e30/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9f400af-9ba6-40a7-bbe6-2e2abc6c7b05/deploy-status)](https://app.netlify.com/sites/modest-shannon-3debdc/deploys)
