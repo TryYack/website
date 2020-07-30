@@ -210,12 +210,12 @@ export default function Features(props) {
           </div>
           <div className="hero-features">
             <div className="feature">
-              <h3>Video & audio calls <span className="coming-soon">Coming soon</span></h3>
+              <h3>Video & audio calls <span className="coming-soon">Beta</span></h3>
               <p>Catch up with your team using video or audio calls - keeping it all on one platform.</p>
               <p><a href="https://github.com/WeekdayApp" target="_blank">Keep me updated</a></p>
             </div>
             <div className="feature">
-              <h3>Tasks & lists <span className="coming-soon">Coming soon</span></h3>
+              <h3>Tasks & lists <span className="coming-soon">Beta</span></h3>
               <p>Stay on top of projects with tasks & lists that are assignable to channel members.</p>
               <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
             </div>
