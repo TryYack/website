@@ -216,7 +216,7 @@ export default function Features(props) {
             </div>
             <div className="feature">
               <h3>Tasks & lists <span className="coming-soon">Beta</span></h3>
-              <p>Stay on top of projects with tasks & lists that are assignable to channel members.</p>
+              <p>Stay on top of tasks that need to be completed using channel tasks.</p>
               <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
             </div>
             <div className="feature">
