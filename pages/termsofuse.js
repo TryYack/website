@@ -12,14 +12,23 @@ export default function TermsOfUse(props) {
         <title>Weekday - Give your team superpowers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="/static/images/favicon.png" rel="shortcut icon" />
-        <link rel="stylesheet" href="https://use.typekit.net/njt5tyh.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/njt5tyh.css" />
       </Head>
 
       <style global jsx>{`
         * {
           margin: 0px;
           padding: 0px;
-          font-family: "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, helvetica, Arial, sans-serif;
+        }
+
+        h1,h2,h3,h4,h5,h6 {
+          font-family: 'DM Sans', sans-serif;
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
+        }
+
+        div, p, small, a {
+          font-family: proxima-nova, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }

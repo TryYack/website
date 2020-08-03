@@ -99,7 +99,6 @@ export default function Faq(props) {
           margin-bottom: 50px;
           text-align: center;
           color: #21232C;
-          font-family: aktiv-grotesk-extended, sans-serif;
           font-weight: 700;
           font-style: normal;
         }

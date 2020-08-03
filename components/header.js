@@ -65,7 +65,7 @@ export default function Header(props) {
       <div className="header">
         <div className="h-container">
           <a href="/" className="logo">
-            <img src="../static/images/logo.png" height="50" alt="Weekday"/>
+            <img src="../static/images/logo.svg" height="25" alt="Weekday"/>
           </a>
 
           <div className="flexer"></div>

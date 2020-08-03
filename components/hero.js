@@ -19,7 +19,7 @@ export default function Hero(props) {
         }
 
         .hero h1 {
-          font-size: 80px;
+          font-size: 90px;
           color: white;
           font-weight: 600;
           font-style: normal;
@@ -28,7 +28,7 @@ export default function Hero(props) {
           margin-right: auto;
           margin-left: auto;
           margin-top: 0px;
-          width: 600px;
+          width: 650px;
         }
 
         .hero h2 {
@@ -172,7 +172,7 @@ export default function Hero(props) {
       `}</style>
 
       <div className="hero">
-        <h1>Bring your team together</h1>
+        <h1>Bring your <br/>team together</h1>
         <h2>Weekday is a messaging & collaboration platform that makes sure your team doesn't miss a beat.</h2>
         <h3>Join our closed beta</h3>
 
