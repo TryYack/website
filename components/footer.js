@@ -82,7 +82,7 @@ export default function Footer(props) {
           <li><a href="/privacypolicy">Privacy policy</a></li>
           <li><a href="/termsofuse">Terms of use</a></li>
           <li><a href="https://twitter.com/TeamWeekday" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="30" /></a></li>
-          <li><a href="https://www.facebook.com/Weekday-107863507687617/" target="_blank"><img src="../static/icons/facebook.svg" border="0" height="30" /></a></li>
+          <li><a href="https://www.facebook.com/TeamWeekday" target="_blank"><img src="../static/icons/facebook.svg" border="0" height="30" /></a></li>
           <li><a href="https://www.instagram.com/teamweekday/" target="_blank"><img src="../static/icons/instagram.svg" border="0" height="30" /></a></li>
           <li><a href="https://github.com/WeekdayApp" target="_blank"><img src="../static/icons/github.svg" border="0" height="30" /></a></li>
         </ul>
