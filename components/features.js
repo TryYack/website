@@ -44,11 +44,24 @@ export default function Features(props) {
           width: 60%;
           margin-right: auto;
           margin-left: auto;
-          margin-top: 100px;
+          margin-top: 10px;
           text-align: center;
           color: #21232C;
           font-weight: 700;
           font-style: normal;
+        }
+
+        .features h1.label {
+          font-size: 14px;
+          width: 60%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 100px;
+          text-align: center;
+          color: #ACB5BD;
+          font-weight: 700;
+          font-style: normal;
+          text-transform: uppercase;
         }
 
         .features h2 {
@@ -108,7 +121,7 @@ export default function Features(props) {
               text-transform: uppercase;
               border-radius: 3px;
               position: relative;
-              top: -2px;
+              top: -5px;
               left: 5px;
             }
 
@@ -173,7 +186,7 @@ export default function Features(props) {
               text-transform: uppercase;
               border-radius: 3px;
               position: relative;
-              top: -2px;
+              top: -5px;
               left: 5px;
             }
 
@@ -215,7 +228,7 @@ export default function Features(props) {
               <p><a href="https://github.com/WeekdayApp" target="_blank">Keep me updated</a></p>
             </div>
             <div className="feature">
-              <h3>Tasks & lists <span className="coming-soon">Beta</span></h3>
+              <h3>Tasks  <span className="coming-soon">Beta</span></h3>
               <p>Stay on top of tasks that need to be completed using channel tasks.</p>
               <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
             </div>
@@ -226,6 +239,9 @@ export default function Features(props) {
             </div>
           </div>
         </div>
+        <h1 className="label">
+          FEATURES
+        </h1>
         <h1>
           Take back team collaboration
         </h1>

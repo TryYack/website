@@ -32,14 +32,14 @@ export default function Home(props) {
           background-size: 100%;
         }
 
-        h1,h2,h3,h4,h5,h6 {
-          font-family: 'DM Sans', sans-serif;
+        h1, h2, h3, h4, h5, h6, button {
+          font-family: 'Aktiv Grotesk Ext', 'Roc Grotesk', 'Sweet Sans Pro'; /* 'DM Sans', sans-serif; */
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
 
         div, p, small, a {
-          font-family: proxima-nova, sans-serif;
+          font-family: 'DM Sans', 'Neuzeit', proxima-nova, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
@@ -49,6 +49,7 @@ export default function Home(props) {
       <Hero />
       <Features />
       <Faq />
+      <Subscribe />
       <Footer />
     </React.Fragment>
   )

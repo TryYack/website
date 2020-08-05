@@ -5,16 +5,18 @@ export default function Subscribe(props) {
     <React.Fragment>
       <style global jsx>{`
         .subscribe {
-          background-color: #212835;
-          background-color: #F7F8F9;
+          background: #011126;
           margin: 0px;
           padding: 0px;
-          margin-top: 30px;
-          margin-bottom: 30px;
-          width: 500px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          width: 100%;
           position: relative;
-          margin-left: auto;
-          margin-right: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
         }
 
         .subscribe h1 {
@@ -24,23 +26,19 @@ export default function Subscribe(props) {
           margin-left: auto;
           margin-bottom: 50px;
           text-align: center;
-          color: #21232C;
+          color: #515D79;
           font-weight: 700;
           font-style: normal;
+          display: none;
         }
 
         .subscribe h2 {
-          font-size: 24px;
-          margin-top: 20px;
-          width: 100%;
-          margin-right: auto;
-          margin-left: auto;
-          margin-bottom: 100px;
+          font-size: 14px;
+          display: inline-block;
           text-align: center;
           color: #6E7E97;
-          font-weight: 400;
-          line-height: 30px;
-          font-style: normal;
+          font-weight: 500;
+          margin-right: 20px;
         }
 
         @media only screen and (max-width: 1000px) {
@@ -49,22 +47,25 @@ export default function Subscribe(props) {
           }
         }
 
-        .subscribe div {
-          position: relative;
+        .subscribe form {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
         }
 
         .subscribe input {
           border: 0px;
           padding: 20px;
-          height: 75px;
           font-size: 14px;
           color: #6E7E97;
           background: #EAEDEF;
           outline: none;
-          width: 500px;
+          width: 300px;
           box-sizing: border-box;
           border-radius: 5px;
-          margin-top: 10px;
+          margin-right: 5px;
         }
 
         .subscribe input::placeholder {
@@ -73,9 +74,8 @@ export default function Subscribe(props) {
 
         .subscribe button {
           background-color: #8e43e7;
-          border-radius: 0px 5px 5px 0px;
-          width: 150px;
-          height: 75px;
+          border-radius: 5px;
+          padding: 20px;
           border: none;
           color: white;
           transition: opacity 0.25s linear;
@@ -87,10 +87,8 @@ export default function Subscribe(props) {
           justify-content: center;
           align-content: center;
           align-items: center;
-          left: 350px;
-          transform: translateY(-100%);
           outline: none;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 600;
           text-transform: uppercase;
         }
@@ -112,22 +110,17 @@ export default function Subscribe(props) {
       `}</style>
 
       <div className="subscribe">
+        {/*
         <h1>
           Join our mailing list
         </h1>
+        */}
         <h2>
           Keep up to date with releases & news.
         </h2>
-
         <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619E8F2A4A9BC5AFAFD1F79F545ED49CE1EF043DFD1E8F58B5970CD8C352A910033FC84CEB3C085CB0E46333793E01E92F8">
-          <div>
-            <div>
-              <input aria-label="Name" id="fieldName" maxLength="200" name="cm-name" placeholder="Enter full name" />
-            </div>
-            <div>
-              <input autoComplete="Email" aria-label="Email" className="js-cm-email-input qa-input-email" id="fieldEmail" maxLength="200" name="cm-ydlkhut-ydlkhut" required="" type="email" placeholder="Enter email" />
-            </div>
-          </div>
+          <input aria-label="Name" id="fieldName" maxLength="200" name="cm-name" placeholder="Full name" />
+          <input autoComplete="Email" aria-label="Email" className="js-cm-email-input qa-input-email" id="fieldEmail" maxLength="200" name="cm-ydlkhut-ydlkhut" required="" type="email" placeholder="Email address" />
           <button type="submit">Subscribe</button>
         </form>
       </div>

@@ -55,7 +55,12 @@ export default function Header(props) {
             }
 
           .header .h-container .links a.button {
-            color: #b84592;
+            color: white;
+            padding: 10px 15px 10px 15px;
+            background-color: #b84592;
+            border-radius: 3px;
+            font-weight: 500;
+            font-size: 14px;
           }
 
           .header .h-container .links a:hover {
@@ -74,8 +79,9 @@ export default function Header(props) {
             <a href="/">Home</a>
             <a href="/#features">Features</a>
             <a href="/#faq">FAQ</a>
+            <a href="/#faq">Pricing</a>
             <a href="mailto:support@weekdayapp.com">Support</a>
-            <a href="https://app.weekdayapp.com" target="_blank" className="button">Login / Signup</a>
+            <a href="https://app.weekdayapp.com" target="_blank" className="button">Go to Weekday</a>
           </div>
         </div>
       </div>

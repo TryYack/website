@@ -8,9 +8,9 @@ export default function Footer(props) {
       <a name="footer"></a>
       <style jsx>{`
         .footer {
-          background-color: #212835;
-          background-color: #F7F8F9;
+          background-color: #03172e;
           padding: 50px;
+          padding-bottom: 100px;
         }
 
         .footer p {
@@ -20,8 +20,9 @@ export default function Footer(props) {
           margin-left: auto;
           text-align: center;
           color: #8492A6;
-          line-height: 25px;
-          font-weight: 500;
+          padding: 30px;
+          padding-bottom: 50px;
+          font-weight: 600;
         }
 
         .footer .image {
@@ -41,11 +42,12 @@ export default function Footer(props) {
           justify-content: center;
           align-content: center;
           align-items: center;
+          width: 100%;
         }
 
         .footer ul li {
           list-style-type: none;
-          margin: 10px;
+          margin-right: 20px;
           padding: 0px;
         }
 
@@ -58,26 +60,31 @@ export default function Footer(props) {
           font-weight: 500;
         }
 
+        .footer ul li a img {
+          fill: #63748B;
+          position: relative;
+          top: 2px;
+        }
+
         .footer ul li a:hover {
           opacity: 0.75;
         }
       `}</style>
 
+
+
       <div className="footer">
-        <Subscribe />
-
         <p>
-          Weekday &copy; 2020 - All rights reserved
+          <img src="../static/images/emblem-grey.svg" border="0" height="40" />
         </p>
-        <div className="image">
-
-        </div>
         <ul>
-          {/* <li><a href="/"><img src="https://weekday-assets.s3-us-west-2.amazonaws.com/logo.svg" height="30" alt="Weekday" border="0" /></a></li> */}
+          <li><a href="#">Weekday &copy; 2020</a></li>
           <li><a href="/privacypolicy">Privacy policy</a></li>
           <li><a href="/termsofuse">Terms of use</a></li>
-          <li><a href="https://github.com/WeekdayApp" target="_blank"><img src="../static/icons/github.svg" border="0" height="20" /></a></li>
-          {/* <li><a href="https://twitter.com/weekdayhq" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="20" /></a></li> */}
+          <li><a href="https://twitter.com/TeamWeekday" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="30" /></a></li>
+          <li><a href="https://www.facebook.com/Weekday-107863507687617/" target="_blank"><img src="../static/icons/facebook.svg" border="0" height="30" /></a></li>
+          <li><a href="https://www.instagram.com/teamweekday/" target="_blank"><img src="../static/icons/instagram.svg" border="0" height="30" /></a></li>
+          <li><a href="https://github.com/WeekdayApp" target="_blank"><img src="../static/icons/github.svg" border="0" height="30" /></a></li>
         </ul>
       </div>
     </React.Fragment>

@@ -24,6 +24,8 @@ function Row(props) {
           cursor: pointer;
           opacity: 1;
           transition: opacity 0.5s;
+          position: relative;
+          top: 6px;
         }
 
           .row .icon:hover {
@@ -38,7 +40,7 @@ function Row(props) {
           .row .content h3 {
             font-size: 22px;
             color: #6E7E97;
-            font-weight: 500;
+            font-weight: 400;
 
             opacity: 1;
             transition: opacity 0.5s;
@@ -50,9 +52,9 @@ function Row(props) {
             }
 
           .row .content p {
-            font-size: 14px;
+            font-size: 16px;
             display: ${open ? 'block' : 'none'};
-            color: #858E96;
+            color: #485156;
             line-height: 24px;
             padding-bottom: 10px;
             padding-top: 5px;
@@ -82,7 +84,7 @@ export default function Faq(props) {
           background-color: #F7F8F9;
           padding: 50px;
           padding-top: 0px;
-          padding-bottom: 0px;
+          padding-bottom: 100px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -110,18 +112,18 @@ export default function Faq(props) {
         </h1>
 
         <Row
+          title="Where is the pricing information?"
+          text="We are busy finalising our paid plans - please subscribe to our mailing list to keep updated on how premium plans will affect current features."
+        />
+
+        <Row
           title="This seems very new, what's the story?"
           text="Weekday is a new messaging platform built from the ground up to make communication & collaboration easier for your team."
         />
 
         <Row
           title="But, is this just another Slack or Microsoft Teams?"
-          text="Yes, but we believe there are a few things that Weekday does more intuitively."
-        />
-
-        <Row
-          title="Where is the pricing information?"
-          text="We are busy finalising our paid plans - please subscribe to our mailing list to keep updated on how premium plans will affect current features."
+          text="Yes, but we believe there are a few things about Weekday that you'll like more."
         />
 
         <Row
@@ -142,6 +144,11 @@ export default function Faq(props) {
         <Row
           title="I need to connect my GitHub (or other) account"
           text="We are busy building more integrations, in the meantime you can use the Zapier app to connect almost any other platform."
+        />
+
+        <Row
+          title="How do I build apps & integrations"
+          text="We are busy setting up a knowledge base & some documentation on how to build apps for Weekday. Please subscribe to our mailing list or follow us on Twitter for more information."
         />
 
         <Row

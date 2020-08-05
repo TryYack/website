@@ -21,14 +21,14 @@ export default function Hero(props) {
         .hero h1 {
           font-size: 90px;
           color: white;
-          font-weight: 600;
+          font-weight: 300;
           font-style: normal;
           line-height: 100px;
           text-align: center;
           margin-right: auto;
           margin-left: auto;
           margin-top: 0px;
-          width: 650px;
+          width: 80%;
         }
 
         .hero h2 {
@@ -172,18 +172,18 @@ export default function Hero(props) {
       `}</style>
 
       <div className="hero">
-        <h1>Bring your <br/>team together</h1>
-        <h2>Weekday is a messaging & collaboration platform that makes sure your team doesn't miss a beat.</h2>
-        <h3>Join our closed beta</h3>
+        <h1>Give your team <br/>superpowers.</h1>
+        <h2>Weekday is a messaging & collaboration platform that brings your team together.</h2>
+        <h3>Become a beta tester</h3>
 
         <div className="closed-beta">
           <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619F53C6A2398CD3130770B2DB5FC77783270ABFD0FCD97749CB1AC95B699CE570C9642292C1DBD22217BCB1866219B7383">
             <div>
               <div>
-                <input aria-label="Name" id="fieldName" maxLength="200" name="cm-name" placeholder="Enter full name" />
+                <input aria-label="Name" id="fieldName" maxLength="200" name="cm-name" placeholder="Full name" />
               </div>
               <div>
-                <input autoComplete="Email" aria-label="Email" className="js-cm-email-input qa-input-email" id="fieldEmail" maxLength="200" name="cm-yhllvh-yhllvh" required="" type="email" placeholder="Enter email" />
+                <input autoComplete="Email" aria-label="Email" className="js-cm-email-input qa-input-email" id="fieldEmail" maxLength="200" name="cm-yhllvh-yhllvh" required="" type="email" placeholder="Team email address" />
               </div>
             </div>
             <button type="submit" className="button">
