@@ -12,5 +12,4 @@ yarn-error.log
 *.jsbundle
 *.bundle
 .next
-static/
 out/
