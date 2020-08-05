@@ -153,7 +153,7 @@ export default function Faq(props) {
 
         <Row
           title="Something has broken / I can't log in"
-          text="Sorry about that. Weekday is still in alpha, so please expect things to break. You can email us at <a href='mailto:support@weekdayapp.com' style='color: #00aeff;'>support@weekdayapp.com</a> for support."
+          text="Sorry about that! Weekday is still in beta, so please expect things to break from time to time (however, we are attending to things quickly). You can email us <a href='mailto:support@weekday.freshdesk.com' style='color: #00aeff;'>here</a> for any issues."
         />
       </div>
     </React.Fragment>
