@@ -33,13 +33,13 @@ export default function Home(props) {
         }
 
         h1, h2, h3, h4, h5, h6, button {
-          font-family: 'Aktiv Grotesk Ext', 'Roc Grotesk', 'Sweet Sans Pro'; /* 'DM Sans', sans-serif; */
+          font-family: aktiv-grotesk-extended, sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
 
         div, p, small, a {
-          font-family: 'DM Sans', 'Neuzeit', proxima-nova, sans-serif;
+          font-family: 'DM Sans', sans-serif;
           -webkit-font-smoothing: antialiased;
           text-rendering: optimizeLegibility;
         }
