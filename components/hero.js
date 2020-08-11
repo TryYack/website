@@ -172,7 +172,7 @@ export default function Hero(props) {
       `}</style>
 
       <div className="hero">
-        <h1>Give your team <br/>superpowers.</h1>
+        <h1>Give your team <br/>superpowers</h1>
         <h2>Weekday is a messaging & collaboration platform that brings your team together.</h2>
         <h3>Become a beta tester</h3>
 
