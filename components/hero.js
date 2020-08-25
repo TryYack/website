@@ -193,7 +193,7 @@ export default function Hero(props) {
           </form>
         </div>
 
-        <p>Weekday is free to use for teams of any size during the alpha & beta releases. Please read our FAQ for more information.</p>
+        <p>Weekday is free to use for teams of any size during the alpha releases. Please read our FAQ for more information.</p>
       </div>
     </React.Fragment>
   )
