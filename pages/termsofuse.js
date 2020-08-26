@@ -121,7 +121,7 @@ export default function TermsOfUse(props) {
         <h2>8. Governing Law</h2>
         <p>These terms and conditions are governed by and construed in accordance with the laws of South Africa and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
         <h2>Address</h2>
-        <p>60 Marine Drive, Umhlanga, KZN, South Africa</p>
+        <p>Tresckowstrasse, 20253, Hamburg, Germany</p>
         <p>Email: support@weekdayapp.com</p>
       </div>
       <Footer />

@@ -105,7 +105,7 @@ export default function PrivacyPolicy(props) {
         <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
         <p>This policy is effective as of 22 June 2020.</p>
         <h2>Address</h2>
-        <p>60 Marine Drive, Umhlanga, KZN, South Africa</p>
+        <p>Tresckowstrasse, 20253, Hamburg, Germany</p>
         <p>Email: support@weekdayapp.com</p>
       </div>
       <Footer />
