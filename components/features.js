@@ -225,17 +225,17 @@ export default function Features(props) {
             <div className="feature">
               <h3>Video & audio calls <span className="coming-soon">Beta</span></h3>
               <p>Catch up with your team using video or audio calls - keeping it all on one platform.</p>
-              <p><a href="https://github.com/WeekdayApp" target="_blank">Keep me updated</a></p>
+              <p><a href="/#hero">Subscribe</a></p>
             </div>
             <div className="feature">
               <h3>Tasks  <span className="coming-soon">Beta</span></h3>
               <p>Stay on top of tasks that need to be completed using channel tasks.</p>
-              <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
+              <p><a href="https://app.weekdayapp.com" target="_blank">Open Weekday</a></p>
             </div>
             <div className="feature">
               <h3>Easily extendable</h3>
               <p>Easily extend the platform with tools & examples we're constantly refining and improving.</p>
-              <p><a href="https://github.com/WeekdayApp" target="_blank">Read more</a></p>
+              <p><a href="https://github.com/WeekdayApp" target="_blank">See GitHub</a></p>
             </div>
           </div>
         </div>

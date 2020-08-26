@@ -25,7 +25,7 @@ function Row(props) {
           opacity: 1;
           transition: opacity 0.5s;
           position: relative;
-          top: 6px;
+          top: 1px;
         }
 
           .row .icon:hover {
@@ -59,7 +59,7 @@ function Row(props) {
             padding-bottom: 10px;
             padding-top: 5px;
             width: 100%;
-            font-weight: 500;
+            font-weight: 400;
           }
       `}</style>
       <div className="row">

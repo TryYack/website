@@ -6,6 +6,8 @@ import { ArrowRight } from 'react-feather'
 export default function Hero(props) {
   return (
     <React.Fragment>
+      <a name="hero"></a>
+      
       <style jsx>{`
         .hero {
           margin: 0px;
