@@ -278,25 +278,25 @@ export default function Features(props) {
         </div>
         <div className="small-features">
           <div className="feature">
-            <h3>Appstore & app platform</h3>
+            <h3>Appstore & platform</h3>
             <p>Build your own team apps, private apps or install other people's apps from the app store. </p>
           </div>
           <div className="feature">
-            <h3>Polls <span className="app">App</span></h3>
+            <h3>Polls<span className="app">App</span></h3>
             <p>Get feedback from your channel members by posting polls to the channel - there is no limit to how many polls are allowed.</p>
           </div>
           <div className="feature">
-            <h3>Google Drive support <span className="app">App</span></h3>
+            <h3>Google Drive<span className="app">App</span></h3>
             <p>Connect Google Drive accounts so you can access your files quickly & easily. </p>
           </div>
         </div>
         <div className="small-features">
           <div className="feature">
-            <h3>Zapier <span className="app">App</span></h3>
+            <h3>Zapier<span className="app">App</span></h3>
             <p>Connect your favourite app to Weekday by using our Zapier integration.</p>
           </div>
           <div className="feature">
-            <h3>GDPR <span className="coming-soon">Coming Soon</span></h3>
+            <h3>GDPR<span className="coming-soon">Coming Soon</span></h3>
             <p>We believe that your data is yours and want to do our best in making it as secure & accessible to you as possible.</p>
           </div>
           <div className="feature">

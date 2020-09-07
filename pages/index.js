@@ -6,6 +6,7 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 import Faq from '../components/faq'
 import Subscribe from '../components/subscribe'
+import Downloads from '../components/downloads'
 
 export default function Home(props) {
   return (
@@ -49,6 +50,7 @@ export default function Home(props) {
       <Hero />
       <Features />
       <Faq />
+      <Downloads />
       <Subscribe />
       <Footer />
     </React.Fragment>
