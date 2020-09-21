@@ -132,11 +132,6 @@ export default function Faq(props) {
         />
 
         <Row
-          title="Why not open source the API as well?"
-          text="By playing a few things closer to the chest, we feel more confident about giving users the best experience."
-        />
-
-        <Row
           title="When will a more stable beta release happen?"
           text="Soon - subscribe to the mailing list to keep updated!"
         />

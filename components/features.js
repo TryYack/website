@@ -294,6 +294,7 @@ export default function Features(props) {
           <div className="feature">
             <h3>Zapier<span className="app">App</span></h3>
             <p>Connect your favourite app to Weekday by using our Zapier integration.</p>
+            <p><a href="/zapier">Read more</a></p>
           </div>
           <div className="feature">
             <h3>GDPR<span className="coming-soon">Coming Soon</span></h3>
