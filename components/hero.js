@@ -176,7 +176,7 @@ export default function Hero(props) {
       <div className="hero">
         <h1>Give your team <br/>superpowers</h1>
         <h2>Weekday is a messaging & collaboration platform that brings your team together.</h2>
-        <h3>Become a beta tester</h3>
+        <h3>Keep updated on new developments</h3>
 
         <div className="closed-beta">
           <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619F53C6A2398CD3130770B2DB5FC77783270ABFD0FCD97749CB1AC95B699CE570C9642292C1DBD22217BCB1866219B7383">
