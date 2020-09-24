@@ -79,6 +79,12 @@ export default function Downloads(props) {
           <div className="platform">
             <a href="https://weekday-builds.s3.eu-central-1.amazonaws.com/v0.1.0/Weekday.v0.1.0.Linux.zip" target="_blank"><img src="../static/icons/linux.svg" border="0" height="30" /></a>
           </div>
+          <div className="platform">
+            <a href="https://apps.apple.com/us/app/id1532210277" target="_blank"><img src="../static/images/ios.png" border="0" height="50" /></a>
+          </div>
+          <div className="platform">
+            <a href="https://play.google.com/store/apps/details?id=com.weekdayapp.weekday" target="_blank"><img src="../static/images/android.png" border="0" height="50" /></a>
+          </div>
         </div>
       </div>
     </React.Fragment>
