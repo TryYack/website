@@ -80,7 +80,7 @@ export default function Header(props) {
             <a href="/#features">Features</a>
             <a href="/#faq">FAQ</a>
             <a href="/#faq">Pricing</a>
-            <a href="javascript:void(0);" id="yack.app" data-inbox="weekday">Support</a>
+            <a href="javascript:void(0);" id="yack" data-inbox="weekday">Support</a>
             <a href="https://app.weekdayapp.com" target="_blank" className="button">Go to Weekday</a>
           </div>
         </div>
