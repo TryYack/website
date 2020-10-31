@@ -18,6 +18,7 @@ export default function Home(props) {
         <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/njt5tyh.css" />
+        <script src="https://assets.yack.app/0.0.1.js"></script>
       </Head>
 
       <style global jsx>{`
