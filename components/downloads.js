@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function Downloads(props) {
+  return null
+  
   return (
     <React.Fragment>
       <style global jsx>{`
