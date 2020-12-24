@@ -175,7 +175,7 @@ export default function Hero(props) {
 
       <div className="hero">
         <h1>Give your team <br/>superpowers</h1>
-        <h2>Weekday is a messaging & collaboration platform that brings your team together.</h2>
+        <h2>Weekday is a messaging-first collaboration platform that brings your team together.</h2>
         <h3>Keep updated on new developments</h3>
 
         <div className="closed-beta">
