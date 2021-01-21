@@ -78,7 +78,7 @@ export default function Footer(props) {
           <img src="../static/images/emblem-grey.svg" border="0" height="40" />
         </p>
         <ul>
-          <li><a href="#">Weekday &copy; 2020</a></li>
+          <li><a href="#">Weekday &copy; 2021</a></li>
           <li><a href="/privacypolicy">Privacy policy</a></li>
           <li><a href="/termsofuse">Terms of use</a></li>
           <li><a href="https://twitter.com/TeamWeekday" target="_blank"><img src="../static/icons/twitter.svg" border="0" height="30" /></a></li>
